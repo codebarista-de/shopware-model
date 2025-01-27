@@ -17,7 +17,6 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 import java.time.OffsetDateTime;
@@ -438,13 +437,6 @@ public class Document {
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
     public String getDocumentNumber() {
-        // Shopware 6.4 stores the document number in the config
-        if (documentNumber == null && config != null && config.getCustom() != null) {
-            JsonNode invoiceNumber = config.getCustom().get("invoiceNumber");
-            if (invoiceNumber != null && invoiceNumber.isTextual()) {
-                return invoiceNumber.asText();
-            }
-        }
         return documentNumber;
     }
 
