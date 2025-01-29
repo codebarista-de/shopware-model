@@ -3,6 +3,7 @@ plugins {
     id 'maven-publish'
     id 'org.springframework.boot' version '3.4.1'
     id 'io.spring.dependency-management' version '1.1.7'
+    id "org.openapi.generator" version "7.5.0"
 }
 
 group = 'de.codebarista'
@@ -19,6 +20,36 @@ dependencies {
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+/**
+ * Configures the 'openApiGenerate' task to generate Java classes from the specified OpenAPI 3 specification file
+ * for Shopware API integration.
+ */
+openApiGenerate {
+    generatorName.set("java")
+    inputSpec.set("$rootDir/shopware_openapi3.json")
+    outputDir.set("$rootDir/generated/shopware")
+    apiPackage.set("de.codebarista.shopware.api")
+    modelPackage.set("de.codebarista.shopware.model")
+    configOptions.put("dateLibrary", "java8")
+    configOptions.put("library", "webclient") // use Spring webclient
+    configOptions.put("useJakartaEe", "true") // Use Jakarta EE dependencies instead of javax
+}
+
+/**
+ * Generates Shopware model classes and places them in the src/main/java/shopware source directory.
+ * This task depends on the 'openApiGenerate' task.
+ */
+tasks.register('generateShopwareModelClasses', Copy) {
+    def mainJavaSrcDir = sourceSets.main.java.srcDirs.iterator().next()
+    def sourceDir = "$rootDir/generated/shopware/src/main/java/de/codebarista/shopware"
+    from(sourceDir)
+    into("${mainJavaSrcDir}/de/codebarista/shopware")
+    dependsOn tasks.openApiGenerate
+    doLast {
+        delete "$rootDir/generated"
+    }
 }
 
 test {
