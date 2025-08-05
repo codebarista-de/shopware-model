@@ -1,4 +1,4 @@
-package de.codebarista.shopware.translated;
+package de.codebarista.shopware.modelextension;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import jakarta.annotation.Nonnull;

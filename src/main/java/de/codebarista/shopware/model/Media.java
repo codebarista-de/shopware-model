@@ -211,6 +211,16 @@ public class Media {
   }
 
 
+  /**
+   * ADDED BY CODEBARISTA
+   */
+  @JsonProperty(JSON_PROPERTY_FILE_NAME)
+  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
+  public void setFileName(String fileName) {
+    this.fileName = fileName;
+  }
+
+
 
 
    /**

@@ -18,6 +18,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.JsonTypeName;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Objects;
 
@@ -38,10 +39,10 @@ import java.util.Objects;
 @jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-06-10T11:26:02.541008353+02:00[Europe/Berlin]", comments = "Generator version: 7.5.0")
 public class OrderPrice {
     public static final String JSON_PROPERTY_NET_PRICE = "netPrice";
-    private Float netPrice;
+    private BigDecimal netPrice;
 
     public static final String JSON_PROPERTY_TOTAL_PRICE = "totalPrice";
-    private Float totalPrice;
+    private BigDecimal totalPrice;
 
     public static final String JSON_PROPERTY_CALCULATED_TAXES = "calculatedTaxes";
     private List<CalculatedTax> calculatedTaxes;
@@ -50,10 +51,10 @@ public class OrderPrice {
     private Object taxRules;
 
     public static final String JSON_PROPERTY_POSITION_PRICE = "positionPrice";
-    private Float positionPrice;
+    private BigDecimal positionPrice;
 
     public static final String JSON_PROPERTY_RAW_TOTAL = "rawTotal";
-    private Float rawTotal;
+    private BigDecimal rawTotal;
 
     public static final String JSON_PROPERTY_TAX_STATUS = "taxStatus";
     private String taxStatus;
@@ -61,7 +62,7 @@ public class OrderPrice {
     public OrderPrice() {
     }
 
-    public OrderPrice netPrice(Float netPrice) {
+    public OrderPrice netPrice(BigDecimal netPrice) {
 
         this.netPrice = netPrice;
         return this;
@@ -76,19 +77,19 @@ public class OrderPrice {
     @JsonProperty(JSON_PROPERTY_NET_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
-    public Float getNetPrice() {
+    public BigDecimal getNetPrice() {
         return netPrice;
     }
 
 
     @JsonProperty(JSON_PROPERTY_NET_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
-    public void setNetPrice(Float netPrice) {
+    public void setNetPrice(BigDecimal netPrice) {
         this.netPrice = netPrice;
     }
 
 
-    public OrderPrice totalPrice(Float totalPrice) {
+    public OrderPrice totalPrice(BigDecimal totalPrice) {
 
         this.totalPrice = totalPrice;
         return this;
@@ -103,14 +104,14 @@ public class OrderPrice {
     @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
-    public Float getTotalPrice() {
+    public BigDecimal getTotalPrice() {
         return totalPrice;
     }
 
 
     @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
-    public void setTotalPrice(Float totalPrice) {
+    public void setTotalPrice(BigDecimal totalPrice) {
         this.totalPrice = totalPrice;
     }
 
@@ -169,7 +170,7 @@ public class OrderPrice {
     }
 
 
-    public OrderPrice positionPrice(Float positionPrice) {
+    public OrderPrice positionPrice(BigDecimal positionPrice) {
 
         this.positionPrice = positionPrice;
         return this;
@@ -184,19 +185,19 @@ public class OrderPrice {
     @JsonProperty(JSON_PROPERTY_POSITION_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
-    public Float getPositionPrice() {
+    public BigDecimal getPositionPrice() {
         return positionPrice;
     }
 
 
     @JsonProperty(JSON_PROPERTY_POSITION_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
-    public void setPositionPrice(Float positionPrice) {
+    public void setPositionPrice(BigDecimal positionPrice) {
         this.positionPrice = positionPrice;
     }
 
 
-    public OrderPrice rawTotal(Float rawTotal) {
+    public OrderPrice rawTotal(BigDecimal rawTotal) {
 
         this.rawTotal = rawTotal;
         return this;
@@ -211,14 +212,14 @@ public class OrderPrice {
     @JsonProperty(JSON_PROPERTY_RAW_TOTAL)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
-    public Float getRawTotal() {
+    public BigDecimal getRawTotal() {
         return rawTotal;
     }
 
 
     @JsonProperty(JSON_PROPERTY_RAW_TOTAL)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
-    public void setRawTotal(Float rawTotal) {
+    public void setRawTotal(BigDecimal rawTotal) {
         this.rawTotal = rawTotal;
     }
 
@@ -299,4 +300,3 @@ public class OrderPrice {
     }
 
 }
-

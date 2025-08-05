@@ -2,7 +2,9 @@ package de.codebarista.shopware.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
+import lombok.Getter;
 
+@Getter
 public class DocumentConfig {
     @JsonProperty("name")
     private String name;
@@ -10,8 +12,26 @@ public class DocumentConfig {
     private String documentNumber;
     @JsonProperty("companyName")
     private String companyName;
+    /**
+     * Pre-Shopware 6.7 property for whole company address: "[LegalName -] Street - City ZIP-Code"
+     */
     @JsonProperty("companyAddress")
     private String companyAddress;
+    /**
+     * Since Shopware 6.7
+     */
+    @JsonProperty("companyStreet")
+    private String companyStreet;
+    /**
+     * Since Shopware 6.7
+     */
+    @JsonProperty("companyZipcode")
+    private String companyZipcode;
+    /**
+     * Since Shopware 6.7
+     */
+    @JsonProperty("companyCity")
+    private String companyCity;
     @JsonProperty("companyEmail")
     private String companyEmail;
     @JsonProperty("companyPhone")
@@ -45,68 +65,4 @@ public class DocumentConfig {
      */
     @JsonProperty("intraCommunityDelivery")
     private boolean intraCommunitySupply; // aka intra-community supply
-
-    public String getName() {
-        return name;
-    }
-
-    public String getDocumentNumber() {
-        return documentNumber;
-    }
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public String getCompanyAddress() {
-        return companyAddress;
-    }
-
-    public String getCompanyEmail() {
-        return companyEmail;
-    }
-
-    public String getCompanyPhone() {
-        return companyPhone;
-    }
-
-    public String getExecutiveDirector() {
-        return executiveDirector;
-    }
-
-    public String getVatId() {
-        return vatId;
-    }
-
-    public String getBankIban() {
-        return bankIban;
-    }
-
-    public String getBankBic() {
-        return bankBic;
-    }
-
-    public String getPlaceOfJurisdiction() {
-        return placeOfJurisdiction;
-    }
-
-    public boolean isDisplayCustomerVatId() {
-        return displayCustomerVatId;
-    }
-
-    public String getComment() {
-        return comment;
-    }
-
-    public JsonNode getCustom() {
-        return custom;
-    }
-
-    public boolean isIntraCommunitySupply() {
-        return intraCommunitySupply;
-    }
-
-    public boolean isEnableIntraCommunitySupplyNote() {
-        return enableIntraCommunitySupplyNote;
-    }
 }
