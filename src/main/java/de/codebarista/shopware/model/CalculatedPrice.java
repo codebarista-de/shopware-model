@@ -1,8 +1,7 @@
 package de.codebarista.shopware.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import de.codebarista.integrations.service.electronicinvoice.exception.ElectronicInvoiceGenerationException;
-import de.codebarista.integrations.service.electronicinvoice.shopware.ShopwareTaxStatus;
+import de.codebarista.shopware.modelextension.ShopwareTaxStatus;
 import jakarta.annotation.Nullable;
 
 import java.math.BigDecimal;
@@ -48,6 +47,6 @@ public record CalculatedPrice(@JsonProperty("quantity") BigDecimal quantity,
         } else if (calculatedTaxes.size() == 1) {
             return calculatedTaxes.get(0);
         }
-        throw new ElectronicInvoiceGenerationException("Has more than one calculated tax");
+        throw new RuntimeException("Has more than one calculated tax");
     }
 }

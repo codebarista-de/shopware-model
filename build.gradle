@@ -1,21 +1,18 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'org.springframework.boot' version '3.4.1'
-    id 'io.spring.dependency-management' version '1.1.7'
     id "org.openapi.generator" version "7.5.0"
 }
 
 group = 'de.codebarista'
-version = '1.0-SNAPSHOT'
+version = '1.0.1-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compileOnly 'org.springframework.boot:spring-boot-starter-web'
-    compileOnly 'org.springframework.boot:spring-boot-starter-webflux'
+    compileOnly 'jakarta.annotation:jakarta.annotation-api:3.0.0'
     compileOnly 'org.openapitools:jackson-databind-nullable:0.2.6' // for generated shopware model classes
 
     testImplementation platform('org.junit:junit-bom:5.10.0')

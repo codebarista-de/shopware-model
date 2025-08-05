@@ -2,9 +2,7 @@ package de.codebarista.shopware.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
-import lombok.Getter;
 
-@Getter
 public class DocumentConfig {
     @JsonProperty("name")
     private String name;
@@ -65,4 +63,137 @@ public class DocumentConfig {
      */
     @JsonProperty("intraCommunityDelivery")
     private boolean intraCommunitySupply; // aka intra-community supply
+
+    /**
+     * Gets the {@link #name}.
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Gets the {@link #documentNumber}.
+     */
+    public String getDocumentNumber() {
+        return documentNumber;
+    }
+
+    /**
+     * Gets the {@link #companyName}.
+     */
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    /**
+     * Gets the {@link #companyAddress}.
+     */
+    public String getCompanyAddress() {
+        return companyAddress;
+    }
+
+    /**
+     * Gets the {@link #companyStreet}.
+     */
+    public String getCompanyStreet() {
+        return companyStreet;
+    }
+
+    /**
+     * Gets the {@link #companyZipcode}.
+     */
+    public String getCompanyZipcode() {
+        return companyZipcode;
+    }
+
+    /**
+     * Gets the {@link #companyCity}.
+     */
+    public String getCompanyCity() {
+        return companyCity;
+    }
+
+    /**
+     * Gets the {@link #companyEmail}.
+     */
+    public String getCompanyEmail() {
+        return companyEmail;
+    }
+
+    /**
+     * Gets the {@link #companyPhone}.
+     */
+    public String getCompanyPhone() {
+        return companyPhone;
+    }
+
+    /**
+     * Gets the {@link #executiveDirector}.
+     */
+    public String getExecutiveDirector() {
+        return executiveDirector;
+    }
+
+    /**
+     * Gets the {@link #vatId}.
+     */
+    public String getVatId() {
+        return vatId;
+    }
+
+    /**
+     * Gets the {@link #bankIban}.
+     */
+    public String getBankIban() {
+        return bankIban;
+    }
+
+    /**
+     * Gets the {@link #bankBic}.
+     */
+    public String getBankBic() {
+        return bankBic;
+    }
+
+    /**
+     * Gets the {@link #placeOfJurisdiction}.
+     */
+    public String getPlaceOfJurisdiction() {
+        return placeOfJurisdiction;
+    }
+
+    /**
+     * Gets the {@link #displayCustomerVatId}.
+     */
+    public boolean isDisplayCustomerVatId() {
+        return displayCustomerVatId;
+    }
+
+    /**
+     * Gets the {@link #comment}.
+     */
+    public String getComment() {
+        return comment;
+    }
+
+    /**
+     * Gets the {@link #custom}.
+     */
+    public JsonNode getCustom() {
+        return custom;
+    }
+
+    /**
+     * Gets the {@link #enableIntraCommunitySupplyNote}.
+     */
+    public boolean isEnableIntraCommunitySupplyNote() {
+        return enableIntraCommunitySupplyNote;
+    }
+
+    /**
+     * Gets the {@link #intraCommunitySupply}.
+     */
+    public boolean isIntraCommunitySupply() {
+        return intraCommunitySupply;
+    }
 }
