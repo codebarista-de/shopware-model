@@ -1,7 +1,7 @@
 # Shopware Model
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.codebarista/shopware-model/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.codebarista/shopware-model)
+[![Maven Central](https://maven-badges.sml.io/sonatype-central/de.codebarista/shopware-model/badge.svg)](https://maven-badges.sml.io/sonatype-central/de.codebarista/shopware-model)
 
 Auto-generated Java model classes for the Shopware Store API, providing type-safe access to Shopware's data structures.
 
