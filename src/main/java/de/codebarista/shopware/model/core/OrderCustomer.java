@@ -86,6 +86,9 @@ public class OrderCustomer {
   public static final String JSON_PROPERTY_SALUTATION = "salutation";
   private Salutation salutation;
 
+  public static final String JSON_PROPERTY_CUSTOMER_ID = "customerId";
+  private String customerId;
+
   public OrderCustomer() {
   }
 
@@ -446,6 +449,25 @@ public class OrderCustomer {
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
   public void setSalutation(Salutation salutation) {
     this.salutation = salutation;
+  }
+
+   /**
+   * Get customer ID
+   * @return customer ID
+  **/
+  @jakarta.annotation.Nullable
+  @JsonProperty(JSON_PROPERTY_CUSTOMER_ID)
+  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
+
+  public String getCustomerId() {
+    return customerId;
+  }
+
+
+  @JsonProperty(JSON_PROPERTY_CUSTOMER_ID)
+  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
+  public void setCustomerId(String customerId) {
+    this.customerId = customerId;
   }
 
   @Override
