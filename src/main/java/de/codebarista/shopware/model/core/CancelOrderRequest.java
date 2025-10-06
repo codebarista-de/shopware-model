@@ -45,7 +45,6 @@ public class CancelOrderRequest {
    * The identifier of the order to be canceled.
    * @return orderId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class CancelOrderRequest {
   }
 
 }
-

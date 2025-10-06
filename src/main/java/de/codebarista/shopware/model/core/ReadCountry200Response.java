@@ -71,7 +71,6 @@ public class ReadCountry200Response {
    * Alias which can be used to restrict response fields. For more information see [includes](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#includes-apialias).
    * @return apiAlias
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_API_ALIAS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -97,7 +96,6 @@ public class ReadCountry200Response {
    * Get entity
    * @return entity
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -123,7 +121,6 @@ public class ReadCountry200Response {
    * The total number of found entities
    * @return total
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -157,7 +154,6 @@ public class ReadCountry200Response {
    * Contains aggregated data. A simple example is the determination of the average price from a product search query.
    * @return aggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AGGREGATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -183,7 +179,6 @@ public class ReadCountry200Response {
    * The actual page. This can be used for pagination.
    * @return page
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -209,7 +204,6 @@ public class ReadCountry200Response {
    * The actual limit. This is used for pagination and goes together with the page.
    * @return limit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -243,7 +237,6 @@ public class ReadCountry200Response {
    * Get elements
    * @return elements
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ELEMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -308,4 +301,3 @@ public class ReadCountry200Response {
   }
 
 }
-

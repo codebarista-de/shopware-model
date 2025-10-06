@@ -129,7 +129,6 @@ public class CmsSection {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -155,7 +154,6 @@ public class CmsSection {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -181,7 +179,6 @@ public class CmsSection {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -207,7 +204,6 @@ public class CmsSection {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -233,7 +229,6 @@ public class CmsSection {
    * Get sizingMode
    * @return sizingMode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SIZING_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -259,7 +254,6 @@ public class CmsSection {
    * Get mobileBehavior
    * @return mobileBehavior
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MOBILE_BEHAVIOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +279,6 @@ public class CmsSection {
    * Get backgroundColor
    * @return backgroundColor
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_COLOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -311,7 +304,6 @@ public class CmsSection {
    * Get backgroundMediaId
    * @return backgroundMediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -337,7 +329,6 @@ public class CmsSection {
    * Get backgroundMediaMode
    * @return backgroundMediaMode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_MEDIA_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -363,7 +354,6 @@ public class CmsSection {
    * Get cssClass
    * @return cssClass
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CSS_CLASS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -389,7 +379,6 @@ public class CmsSection {
    * Get pageId
    * @return pageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -415,7 +404,6 @@ public class CmsSection {
    * Get visibility
    * @return visibility
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VISIBILITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -441,7 +429,6 @@ public class CmsSection {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -467,7 +454,6 @@ public class CmsSection {
    * Get cmsPageVersionId
    * @return cmsPageVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -487,7 +473,6 @@ public class CmsSection {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -502,7 +487,6 @@ public class CmsSection {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -523,7 +507,6 @@ public class CmsSection {
    * Get page
    * @return page
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -549,7 +532,6 @@ public class CmsSection {
    * Get backgroundMedia
    * @return backgroundMedia
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -583,7 +565,6 @@ public class CmsSection {
    * Get blocks
    * @return blocks
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BLOCKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -672,4 +653,3 @@ public class CmsSection {
   }
 
 }
-

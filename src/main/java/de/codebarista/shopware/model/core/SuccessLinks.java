@@ -57,7 +57,6 @@ public class SuccessLinks {
    * The first page of data
    * @return first
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class SuccessLinks {
    * The last page of data
    * @return last
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +107,6 @@ public class SuccessLinks {
    * The previous page of data
    * @return prev
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PREV)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +132,6 @@ public class SuccessLinks {
    * The next page of data
    * @return next
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NEXT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,4 +190,3 @@ public class SuccessLinks {
   }
 
 }
-

@@ -73,7 +73,6 @@ public class OrderPrice {
      *
      * @return netPrice
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_NET_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -100,7 +99,6 @@ public class OrderPrice {
      *
      * @return totalPrice
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -127,7 +125,6 @@ public class OrderPrice {
      *
      * @return calculatedTaxes
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CALCULATED_TAXES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -154,7 +151,6 @@ public class OrderPrice {
      *
      * @return taxRules
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TAX_RULES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -181,7 +177,6 @@ public class OrderPrice {
      *
      * @return positionPrice
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_POSITION_PRICE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -208,7 +203,6 @@ public class OrderPrice {
      *
      * @return rawTotal
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_RAW_TOTAL)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -235,7 +229,6 @@ public class OrderPrice {
      *
      * @return taxStatus
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_TAX_STATUS)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 

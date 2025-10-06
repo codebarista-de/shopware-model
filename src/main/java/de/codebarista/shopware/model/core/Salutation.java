@@ -83,7 +83,6 @@ public class Salutation {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +108,6 @@ public class Salutation {
    * Get salutationKey
    * @return salutationKey
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALUTATION_KEY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -135,7 +133,6 @@ public class Salutation {
    * Get displayName
    * @return displayName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DISPLAY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -161,7 +158,6 @@ public class Salutation {
    * Get letterName
    * @return letterName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LETTER_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -187,7 +183,6 @@ public class Salutation {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -207,7 +202,6 @@ public class Salutation {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -222,7 +216,6 @@ public class Salutation {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -243,7 +236,6 @@ public class Salutation {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -310,4 +302,3 @@ public class Salutation {
   }
 
 }
-

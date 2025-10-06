@@ -109,7 +109,6 @@ public class OrderTransactionCaptureRefund {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +134,6 @@ public class OrderTransactionCaptureRefund {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -161,7 +159,6 @@ public class OrderTransactionCaptureRefund {
    * Get captureId
    * @return captureId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CAPTURE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -187,7 +184,6 @@ public class OrderTransactionCaptureRefund {
    * Get captureVersionId
    * @return captureVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAPTURE_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -213,7 +209,6 @@ public class OrderTransactionCaptureRefund {
    * Get stateId
    * @return stateId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STATE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -239,7 +234,6 @@ public class OrderTransactionCaptureRefund {
    * Get externalReference
    * @return externalReference
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXTERNAL_REFERENCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -265,7 +259,6 @@ public class OrderTransactionCaptureRefund {
    * Get reason
    * @return reason
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REASON)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -291,7 +284,6 @@ public class OrderTransactionCaptureRefund {
    * Get amount
    * @return amount
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_AMOUNT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -317,7 +309,6 @@ public class OrderTransactionCaptureRefund {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -337,7 +328,6 @@ public class OrderTransactionCaptureRefund {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -352,7 +342,6 @@ public class OrderTransactionCaptureRefund {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -373,7 +362,6 @@ public class OrderTransactionCaptureRefund {
    * Get stateMachineState
    * @return stateMachineState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATE_MACHINE_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -399,7 +387,6 @@ public class OrderTransactionCaptureRefund {
    * Get transactionCapture
    * @return transactionCapture
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSACTION_CAPTURE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -433,7 +420,6 @@ public class OrderTransactionCaptureRefund {
    * Get positions
    * @return positions
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -512,4 +498,3 @@ public class OrderTransactionCaptureRefund {
   }
 
 }
-

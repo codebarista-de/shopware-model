@@ -77,7 +77,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get pluginId
    * @return pluginId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PLUGIN_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -103,7 +102,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get handlerIdentifier
    * @return handlerIdentifier
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HANDLER_IDENTIFIER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -129,7 +127,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -155,7 +152,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -181,7 +177,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -207,7 +202,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -233,7 +227,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get availabilityRuleId
    * @return availabilityRuleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABILITY_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -259,7 +252,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +277,6 @@ public class SalesChannelContextAllOfPaymentMethod {
    * Get formattedHandlerIdentifier
    * @return formattedHandlerIdentifier
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FORMATTED_HANDLER_IDENTIFIER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -354,4 +345,3 @@ public class SalesChannelContextAllOfPaymentMethod {
   }
 
 }
-

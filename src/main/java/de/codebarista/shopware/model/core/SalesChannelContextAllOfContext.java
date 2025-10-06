@@ -73,7 +73,6 @@ public class SalesChannelContextAllOfContext {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -99,7 +98,6 @@ public class SalesChannelContextAllOfContext {
    * Get currencyId
    * @return currencyId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +123,6 @@ public class SalesChannelContextAllOfContext {
    * Get currencyFactor
    * @return currencyFactor
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_FACTOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +148,6 @@ public class SalesChannelContextAllOfContext {
    * Get currencyPrecision
    * @return currencyPrecision
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_PRECISION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +173,6 @@ public class SalesChannelContextAllOfContext {
    * Get scope
    * @return scope
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SCOPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +198,6 @@ public class SalesChannelContextAllOfContext {
    * Get source
    * @return source
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +223,6 @@ public class SalesChannelContextAllOfContext {
    * Get taxState
    * @return taxState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +248,6 @@ public class SalesChannelContextAllOfContext {
    * Get useCache
    * @return useCache
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USE_CACHE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -322,4 +314,3 @@ public class SalesChannelContextAllOfContext {
   }
 
 }
-

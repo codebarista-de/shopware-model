@@ -75,7 +75,6 @@ public class AppAdministrationSnippet {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -101,7 +100,6 @@ public class AppAdministrationSnippet {
    * Get value
    * @return value
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_VALUE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -127,7 +125,6 @@ public class AppAdministrationSnippet {
    * Get appId
    * @return appId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_APP_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -153,7 +150,6 @@ public class AppAdministrationSnippet {
    * Get localeId
    * @return localeId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LOCALE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -173,7 +169,6 @@ public class AppAdministrationSnippet {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -188,7 +183,6 @@ public class AppAdministrationSnippet {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -246,4 +240,3 @@ public class AppAdministrationSnippet {
   }
 
 }
-

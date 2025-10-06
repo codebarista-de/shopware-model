@@ -85,7 +85,6 @@ public class SalesChannelContext {
    * Alias which can be used to restrict response fields. For more information see [includes](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#includes-apialias).
    * @return apiAlias
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_API_ALIAS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -111,7 +110,6 @@ public class SalesChannelContext {
    * Context the user session
    * @return token
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOKEN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +135,6 @@ public class SalesChannelContext {
    * Get currentCustomerGroup
    * @return currentCustomerGroup
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENT_CUSTOMER_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -163,7 +160,6 @@ public class SalesChannelContext {
    * Get fallbackCustomerGroup
    * @return fallbackCustomerGroup
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FALLBACK_CUSTOMER_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -189,7 +185,6 @@ public class SalesChannelContext {
    * Get currency
    * @return currency
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -215,7 +210,6 @@ public class SalesChannelContext {
    * Get salesChannel
    * @return salesChannel
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -249,7 +243,6 @@ public class SalesChannelContext {
    * Currently active tax rules and/or rates
    * @return taxRules
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_RULES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -275,7 +268,6 @@ public class SalesChannelContext {
    * Get customer
    * @return customer
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -301,7 +293,6 @@ public class SalesChannelContext {
    * Get paymentMethod
    * @return paymentMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -327,7 +318,6 @@ public class SalesChannelContext {
    * Get shippingMethod
    * @return shippingMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -353,7 +343,6 @@ public class SalesChannelContext {
    * Get context
    * @return context
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTEXT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -426,4 +415,3 @@ public class SalesChannelContext {
   }
 
 }
-

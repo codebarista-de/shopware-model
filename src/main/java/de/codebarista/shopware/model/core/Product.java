@@ -423,7 +423,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return id
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -450,7 +449,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return versionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -477,7 +475,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return parentId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PARENT_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -504,7 +501,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return parentVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PARENT_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -531,7 +527,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return manufacturerId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MANUFACTURER_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -558,7 +553,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return productManufacturerVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRODUCT_MANUFACTURER_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -585,7 +579,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return unitId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UNIT_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -612,7 +605,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return taxId
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_TAX_ID)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -639,7 +631,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return coverId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_COVER_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -666,7 +657,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return productMediaVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRODUCT_MEDIA_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -693,7 +683,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return deliveryTimeId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DELIVERY_TIME_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -720,7 +709,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return canonicalProductId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CANONICAL_PRODUCT_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -747,7 +735,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return cmsPageId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CMS_PAGE_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -774,7 +761,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return cmsPageVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CMS_PAGE_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -801,7 +787,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return productNumber
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_PRODUCT_NUMBER)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -828,7 +813,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return restockTime
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_RESTOCK_TIME)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -855,7 +839,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return active
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ACTIVE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -876,7 +859,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return available
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_AVAILABLE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -896,7 +878,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return isCloseout
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_IS_CLOSEOUT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -917,7 +898,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return displayGroup
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DISPLAY_GROUP)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -937,7 +917,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return manufacturerNumber
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MANUFACTURER_NUMBER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -964,7 +943,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return ean
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_EAN)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -991,7 +969,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return purchaseSteps
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PURCHASE_STEPS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1018,7 +995,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return maxPurchase
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MAX_PURCHASE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1045,7 +1021,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return minPurchase
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MIN_PURCHASE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1072,7 +1047,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return purchaseUnit
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PURCHASE_UNIT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1099,7 +1073,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return referenceUnit
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_REFERENCE_UNIT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1126,7 +1099,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return shippingFree
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_SHIPPING_FREE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1153,7 +1125,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return markAsTopseller
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MARK_AS_TOPSELLER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1180,7 +1151,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return weight
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_WEIGHT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1207,7 +1177,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return width
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_WIDTH)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1234,7 +1203,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return height
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_HEIGHT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1261,7 +1229,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return length
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_LENGTH)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1288,7 +1255,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return releaseDate
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_RELEASE_DATE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1309,7 +1275,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return ratingAverage
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_RATING_AVERAGE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1323,7 +1288,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return categoryTree
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CATEGORY_TREE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1337,7 +1301,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return propertyIds
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PROPERTY_IDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1351,7 +1314,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return optionIds
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_OPTION_IDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1365,7 +1327,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return streamIds
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_STREAM_IDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1379,7 +1340,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return tagIds
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TAG_IDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1393,7 +1353,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return categoryIds
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CATEGORY_IDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1407,7 +1366,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return childCount
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CHILD_COUNT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1421,7 +1379,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return sales
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_SALES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1435,7 +1392,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return states
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_STATES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1455,7 +1411,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return metaDescription
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_META_DESCRIPTION)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1482,7 +1437,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return name
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_NAME)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1509,7 +1463,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return keywords
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_KEYWORDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1536,7 +1489,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return description
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DESCRIPTION)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1563,7 +1515,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return metaTitle
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_META_TITLE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1590,7 +1541,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return packUnit
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PACK_UNIT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1617,7 +1567,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return packUnitPlural
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PACK_UNIT_PLURAL)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1644,7 +1593,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return customFields
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1671,7 +1619,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return availableStock
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_AVAILABLE_STOCK)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1698,7 +1645,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return stock
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_STOCK)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1725,7 +1671,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return calculatedPrice
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CALCULATED_PRICE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1760,7 +1705,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return calculatedPrices
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CALCULATED_PRICES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1787,7 +1731,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return calculatedMaxPurchase
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CALCULATED_MAX_PURCHASE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1814,7 +1757,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return calculatedCheapestPrice
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CALCULATED_CHEAPEST_PRICE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1841,7 +1783,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return isNew
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_IS_NEW)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1868,7 +1809,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return sortedProperties
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_SORTED_PROPERTIES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1889,7 +1829,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return createdAt
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_CREATED_AT)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1903,7 +1842,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return updatedAt
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UPDATED_AT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1923,7 +1861,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return translated
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TRANSLATED)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1958,7 +1895,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return downloads
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOWNLOADS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1985,7 +1921,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return parent
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PARENT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2020,7 +1955,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return children
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CHILDREN)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2047,7 +1981,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return deliveryTime
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DELIVERY_TIME)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2074,7 +2007,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return tax
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TAX)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2101,7 +2033,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return manufacturer
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MANUFACTURER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2128,7 +2059,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return unit
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UNIT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2155,7 +2085,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return cover
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_COVER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2182,7 +2111,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return cmsPage
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CMS_PAGE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2209,7 +2137,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return canonicalProduct
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CANONICAL_PRODUCT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2244,7 +2171,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return media
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MEDIA)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2279,7 +2205,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return crossSellings
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CROSS_SELLINGS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2314,7 +2239,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return configuratorSettings
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CONFIGURATOR_SETTINGS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2349,7 +2273,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return productReviews
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRODUCT_REVIEWS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2384,7 +2307,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return mainCategories
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_MAIN_CATEGORIES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2419,7 +2341,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return seoUrls
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_SEO_URLS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2454,7 +2375,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return options
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_OPTIONS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2489,7 +2409,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return properties
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PROPERTIES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2524,7 +2443,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return categories
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CATEGORIES)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2559,7 +2477,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return streams
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_STREAMS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2594,7 +2511,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return categoriesRo
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CATEGORIES_RO)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2629,7 +2545,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return tags
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TAGS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2656,7 +2571,6 @@ public class Product extends WithAdditionalProperties {
      *
      * @return seoCategory
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_SEO_CATEGORY)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2879,4 +2793,3 @@ public class Product extends WithAdditionalProperties {
     }
 
 }
-

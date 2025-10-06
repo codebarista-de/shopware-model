@@ -57,7 +57,6 @@ public class ShippingMethodPageRouteResponseInnerDeliveryTime {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class ShippingMethodPageRouteResponseInnerDeliveryTime {
    * Get min
    * @return min
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +107,6 @@ public class ShippingMethodPageRouteResponseInnerDeliveryTime {
    * Get max
    * @return max
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +132,6 @@ public class ShippingMethodPageRouteResponseInnerDeliveryTime {
    * Get unit
    * @return unit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UNIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,4 +190,3 @@ public class ShippingMethodPageRouteResponseInnerDeliveryTime {
   }
 
 }
-

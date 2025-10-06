@@ -95,7 +95,6 @@ public class ShippingMethodPrice {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -121,7 +120,6 @@ public class ShippingMethodPrice {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -147,7 +145,6 @@ public class ShippingMethodPrice {
    * Get ruleId
    * @return ruleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -173,7 +170,6 @@ public class ShippingMethodPrice {
    * Get calculation
    * @return calculation
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -199,7 +195,6 @@ public class ShippingMethodPrice {
    * Get calculationRuleId
    * @return calculationRuleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATION_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -225,7 +220,6 @@ public class ShippingMethodPrice {
    * Get quantityStart
    * @return quantityStart
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUANTITY_START)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -251,7 +245,6 @@ public class ShippingMethodPrice {
    * Get quantityEnd
    * @return quantityEnd
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUANTITY_END)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -277,7 +270,6 @@ public class ShippingMethodPrice {
    * Get currencyPrice
    * @return currencyPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -303,7 +295,6 @@ public class ShippingMethodPrice {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -323,7 +314,6 @@ public class ShippingMethodPrice {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -338,7 +328,6 @@ public class ShippingMethodPrice {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -406,4 +395,3 @@ public class ShippingMethodPrice {
   }
 
 }
-

@@ -73,7 +73,6 @@ public class UpdateContextRequest {
    * Currency
    * @return currencyId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -99,7 +98,6 @@ public class UpdateContextRequest {
    * Language
    * @return languageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +123,6 @@ public class UpdateContextRequest {
    * Billing Address
    * @return billingAddressId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BILLING_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +148,6 @@ public class UpdateContextRequest {
    * Shipping Address
    * @return shippingAddressId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +173,6 @@ public class UpdateContextRequest {
    * Payment Method
    * @return paymentMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +198,6 @@ public class UpdateContextRequest {
    * Shipping Method
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +223,6 @@ public class UpdateContextRequest {
    * Country
    * @return countryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +248,6 @@ public class UpdateContextRequest {
    * Country State
    * @return countryStateId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY_STATE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -322,4 +314,3 @@ public class UpdateContextRequest {
   }
 
 }
-

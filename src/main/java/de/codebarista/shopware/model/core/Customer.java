@@ -259,7 +259,6 @@ public class Customer {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +284,6 @@ public class Customer {
    * Get groupId
    * @return groupId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_GROUP_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -311,7 +309,6 @@ public class Customer {
    * Get defaultPaymentMethodId
    * @return defaultPaymentMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DEFAULT_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -337,7 +334,6 @@ public class Customer {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -363,7 +359,6 @@ public class Customer {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -389,7 +384,6 @@ public class Customer {
    * Get lastPaymentMethodId
    * @return lastPaymentMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -415,7 +409,6 @@ public class Customer {
    * Get defaultBillingAddressId
    * @return defaultBillingAddressId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DEFAULT_BILLING_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -441,7 +434,6 @@ public class Customer {
    * Get defaultShippingAddressId
    * @return defaultShippingAddressId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DEFAULT_SHIPPING_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -467,7 +459,6 @@ public class Customer {
    * Get customerNumber
    * @return customerNumber
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CUSTOMER_NUMBER)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -493,7 +484,6 @@ public class Customer {
    * Get salutationId
    * @return salutationId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -519,7 +509,6 @@ public class Customer {
    * Get firstName
    * @return firstName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -545,7 +534,6 @@ public class Customer {
    * Get lastName
    * @return lastName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -571,7 +559,6 @@ public class Customer {
    * Get company
    * @return company
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPANY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -597,7 +584,6 @@ public class Customer {
    * Get email
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -623,7 +609,6 @@ public class Customer {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -657,7 +642,6 @@ public class Customer {
    * Get vatIds
    * @return vatIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VAT_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -683,7 +667,6 @@ public class Customer {
    * Get affiliateCode
    * @return affiliateCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFFILIATE_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -709,7 +692,6 @@ public class Customer {
    * Get campaignCode
    * @return campaignCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAMPAIGN_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -735,7 +717,6 @@ public class Customer {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -761,7 +742,6 @@ public class Customer {
    * Get doubleOptInRegistration
    * @return doubleOptInRegistration
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOUBLE_OPT_IN_REGISTRATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -787,7 +767,6 @@ public class Customer {
    * Get doubleOptInEmailSentDate
    * @return doubleOptInEmailSentDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOUBLE_OPT_IN_EMAIL_SENT_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -813,7 +792,6 @@ public class Customer {
    * Get doubleOptInConfirmDate
    * @return doubleOptInConfirmDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOUBLE_OPT_IN_CONFIRM_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -839,7 +817,6 @@ public class Customer {
    * Get hash
    * @return hash
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HASH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -865,7 +842,6 @@ public class Customer {
    * Get guest
    * @return guest
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GUEST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -891,7 +867,6 @@ public class Customer {
    * Get firstLogin
    * @return firstLogin
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_LOGIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -917,7 +892,6 @@ public class Customer {
    * Get lastLogin
    * @return lastLogin
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_LOGIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -943,7 +917,6 @@ public class Customer {
    * Get birthday
    * @return birthday
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -963,7 +936,6 @@ public class Customer {
    * Get lastOrderDate
    * @return lastOrderDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_ORDER_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -978,7 +950,6 @@ public class Customer {
    * Get orderCount
    * @return orderCount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -993,7 +964,6 @@ public class Customer {
    * Get orderTotalAmount
    * @return orderTotalAmount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_TOTAL_AMOUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1008,7 +978,6 @@ public class Customer {
    * Get reviewCount
    * @return reviewCount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REVIEW_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1029,7 +998,6 @@ public class Customer {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1049,7 +1017,6 @@ public class Customer {
    * Get tagIds
    * @return tagIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAG_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1070,7 +1037,6 @@ public class Customer {
    * Get accountType
    * @return accountType
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ACCOUNT_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1096,7 +1062,6 @@ public class Customer {
    * Get createdById
    * @return createdById
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_BY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1122,7 +1087,6 @@ public class Customer {
    * Get updatedById
    * @return updatedById
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_BY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1142,7 +1106,6 @@ public class Customer {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1157,7 +1120,6 @@ public class Customer {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1178,7 +1140,6 @@ public class Customer {
    * Get group
    * @return group
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1204,7 +1165,6 @@ public class Customer {
    * Get defaultPaymentMethod
    * @return defaultPaymentMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_PAYMENT_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1230,7 +1190,6 @@ public class Customer {
    * Get language
    * @return language
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1256,7 +1215,6 @@ public class Customer {
    * Get lastPaymentMethod
    * @return lastPaymentMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_PAYMENT_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1282,7 +1240,6 @@ public class Customer {
    * Get defaultBillingAddress
    * @return defaultBillingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_BILLING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1308,7 +1265,6 @@ public class Customer {
    * Get activeBillingAddress
    * @return activeBillingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE_BILLING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1334,7 +1290,6 @@ public class Customer {
    * Get defaultShippingAddress
    * @return defaultShippingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_SHIPPING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1360,7 +1315,6 @@ public class Customer {
    * Get activeShippingAddress
    * @return activeShippingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE_SHIPPING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1386,7 +1340,6 @@ public class Customer {
    * Get salutation
    * @return salutation
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1420,7 +1373,6 @@ public class Customer {
    * Get addresses
    * @return addresses
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ADDRESSES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1454,7 +1406,6 @@ public class Customer {
    * Get tags
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1603,4 +1554,3 @@ public class Customer {
   }
 
 }
-

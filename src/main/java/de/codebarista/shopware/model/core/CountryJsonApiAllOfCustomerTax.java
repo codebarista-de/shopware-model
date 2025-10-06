@@ -53,7 +53,6 @@ public class CountryJsonApiAllOfCustomerTax {
    * Get enabled
    * @return enabled
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ENABLED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class CountryJsonApiAllOfCustomerTax {
    * Get currencyId
    * @return currencyId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -105,7 +103,6 @@ public class CountryJsonApiAllOfCustomerTax {
    * Get amount
    * @return amount
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_AMOUNT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,4 +159,3 @@ public class CountryJsonApiAllOfCustomerTax {
   }
 
 }
-

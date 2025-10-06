@@ -55,7 +55,6 @@ public class ReadShippingMethod200Response {
    * Total amount
    * @return total
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -81,7 +80,6 @@ public class ReadShippingMethod200Response {
    * aggregation result
    * @return aggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AGGREGATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -115,7 +113,6 @@ public class ReadShippingMethod200Response {
    * Get elements
    * @return elements
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ELEMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -172,4 +169,3 @@ public class ReadShippingMethod200Response {
   }
 
 }
-

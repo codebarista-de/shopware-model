@@ -45,7 +45,6 @@ public class PaymentMethodJsonApiAllOfRelationships {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class PaymentMethodJsonApiAllOfRelationships {
   }
 
 }
-

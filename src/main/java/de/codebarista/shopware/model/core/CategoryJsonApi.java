@@ -215,7 +215,6 @@ public class CategoryJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -241,7 +240,6 @@ public class CategoryJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -275,7 +273,6 @@ public class CategoryJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -301,7 +298,6 @@ public class CategoryJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELATIONSHIPS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -335,7 +331,6 @@ public class CategoryJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -369,7 +364,6 @@ public class CategoryJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -395,7 +389,6 @@ public class CategoryJsonApi {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -421,7 +414,6 @@ public class CategoryJsonApi {
    * Get parentId
    * @return parentId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -447,7 +439,6 @@ public class CategoryJsonApi {
    * Get parentVersionId
    * @return parentVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -473,7 +464,6 @@ public class CategoryJsonApi {
    * Get afterCategoryId
    * @return afterCategoryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFTER_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -499,7 +489,6 @@ public class CategoryJsonApi {
    * Get afterCategoryVersionId
    * @return afterCategoryVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFTER_CATEGORY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -525,7 +514,6 @@ public class CategoryJsonApi {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -551,7 +539,6 @@ public class CategoryJsonApi {
    * Get displayNestedProducts
    * @return displayNestedProducts
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DISPLAY_NESTED_PRODUCTS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -571,7 +558,6 @@ public class CategoryJsonApi {
    * Get breadcrumb
    * @return breadcrumb
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BREADCRUMB)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -586,7 +572,6 @@ public class CategoryJsonApi {
    * Get level
    * @return level
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LEVEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -601,7 +586,6 @@ public class CategoryJsonApi {
    * Get path
    * @return path
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PATH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -616,7 +600,6 @@ public class CategoryJsonApi {
    * Get childCount
    * @return childCount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHILD_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -637,7 +620,6 @@ public class CategoryJsonApi {
    * Get productAssignmentType
    * @return productAssignmentType
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRODUCT_ASSIGNMENT_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -663,7 +645,6 @@ public class CategoryJsonApi {
    * Get visible
    * @return visible
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VISIBLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -689,7 +670,6 @@ public class CategoryJsonApi {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -715,7 +695,6 @@ public class CategoryJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return cmsPageIdSwitched
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_ID_SWITCHED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -741,7 +720,6 @@ public class CategoryJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return visibleChildCount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VISIBLE_CHILD_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -767,7 +745,6 @@ public class CategoryJsonApi {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -793,7 +770,6 @@ public class CategoryJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -819,7 +795,6 @@ public class CategoryJsonApi {
    * Get linkType
    * @return linkType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINK_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -845,7 +820,6 @@ public class CategoryJsonApi {
    * Get internalLink
    * @return internalLink
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERNAL_LINK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -871,7 +845,6 @@ public class CategoryJsonApi {
    * Get externalLink
    * @return externalLink
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXTERNAL_LINK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -897,7 +870,6 @@ public class CategoryJsonApi {
    * Get linkNewTab
    * @return linkNewTab
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINK_NEW_TAB)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -923,7 +895,6 @@ public class CategoryJsonApi {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -949,7 +920,6 @@ public class CategoryJsonApi {
    * Get metaTitle
    * @return metaTitle
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -975,7 +945,6 @@ public class CategoryJsonApi {
    * Get metaDescription
    * @return metaDescription
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1001,7 +970,6 @@ public class CategoryJsonApi {
    * Get keywords
    * @return keywords
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_KEYWORDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1027,7 +995,6 @@ public class CategoryJsonApi {
    * Get cmsPageId
    * @return cmsPageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1053,7 +1020,6 @@ public class CategoryJsonApi {
    * Get cmsPageVersionId
    * @return cmsPageVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1079,7 +1045,6 @@ public class CategoryJsonApi {
    * Get customEntityTypeId
    * @return customEntityTypeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_ENTITY_TYPE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1099,7 +1064,6 @@ public class CategoryJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1114,7 +1078,6 @@ public class CategoryJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1135,7 +1098,6 @@ public class CategoryJsonApi {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1262,4 +1224,3 @@ public class CategoryJsonApi {
   }
 
 }
-

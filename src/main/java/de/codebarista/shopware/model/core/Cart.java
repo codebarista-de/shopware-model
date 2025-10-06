@@ -85,7 +85,6 @@ public class Cart {
    * Alias which can be used to restrict response fields. For more information see [includes](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#includes-apialias).
    * @return apiAlias
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_API_ALIAS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -111,7 +110,6 @@ public class Cart {
    * Name of the cart - for example &#x60;guest-cart&#x60;
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +135,6 @@ public class Cart {
    * Context token identifying the cart and the user session
    * @return token
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOKEN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -163,7 +160,6 @@ public class Cart {
    * Get price
    * @return price
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -197,7 +193,6 @@ public class Cart {
    * All items within the cart
    * @return lineItems
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINE_ITEMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -231,7 +226,6 @@ public class Cart {
    * A list of all cart errors, such as insufficient stocks, invalid addresses or vouchers.
    * @return errors
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ERRORS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -265,7 +259,6 @@ public class Cart {
    * A list of all payment transactions associated with the current cart.
    * @return transactions
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSACTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -291,7 +284,6 @@ public class Cart {
    * Get modified
    * @return modified
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MODIFIED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -317,7 +309,6 @@ public class Cart {
    * A comment that can be added to the cart.
    * @return customerComment
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_COMMENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -343,7 +334,6 @@ public class Cart {
    * An affiliate tracking code
    * @return affiliateCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFFILIATE_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -369,7 +359,6 @@ public class Cart {
    * A campaign tracking code
    * @return campaignCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAMPAIGN_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -442,4 +431,3 @@ public class Cart {
   }
 
 }
-

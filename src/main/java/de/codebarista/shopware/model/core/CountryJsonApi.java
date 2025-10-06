@@ -169,7 +169,6 @@ public class CountryJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -195,7 +194,6 @@ public class CountryJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -229,7 +227,6 @@ public class CountryJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +252,6 @@ public class CountryJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELATIONSHIPS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -289,7 +285,6 @@ public class CountryJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -323,7 +318,6 @@ public class CountryJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -349,7 +343,6 @@ public class CountryJsonApi {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -375,7 +368,6 @@ public class CountryJsonApi {
    * Get iso
    * @return iso
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ISO)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -401,7 +393,6 @@ public class CountryJsonApi {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -427,7 +418,6 @@ public class CountryJsonApi {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -453,7 +443,6 @@ public class CountryJsonApi {
    * Get shippingAvailable
    * @return shippingAvailable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_AVAILABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -479,7 +468,6 @@ public class CountryJsonApi {
    * Get iso3
    * @return iso3
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ISO3)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -505,7 +493,6 @@ public class CountryJsonApi {
    * Get displayStateInRegistration
    * @return displayStateInRegistration
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISPLAY_STATE_IN_REGISTRATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -531,7 +518,6 @@ public class CountryJsonApi {
    * Get forceStateInRegistration
    * @return forceStateInRegistration
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FORCE_STATE_IN_REGISTRATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -557,7 +543,6 @@ public class CountryJsonApi {
    * Get checkVatIdPattern
    * @return checkVatIdPattern
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHECK_VAT_ID_PATTERN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -583,7 +568,6 @@ public class CountryJsonApi {
    * Get vatIdRequired
    * @return vatIdRequired
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VAT_ID_REQUIRED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -609,7 +593,6 @@ public class CountryJsonApi {
    * Get vatIdPattern
    * @return vatIdPattern
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VAT_ID_PATTERN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -635,7 +618,6 @@ public class CountryJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -661,7 +643,6 @@ public class CountryJsonApi {
    * Get customerTax
    * @return customerTax
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_TAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -687,7 +668,6 @@ public class CountryJsonApi {
    * Get companyTax
    * @return companyTax
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPANY_TAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -713,7 +693,6 @@ public class CountryJsonApi {
    * Get postalCodeRequired
    * @return postalCodeRequired
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSTAL_CODE_REQUIRED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -739,7 +718,6 @@ public class CountryJsonApi {
    * Get checkPostalCodePattern
    * @return checkPostalCodePattern
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHECK_POSTAL_CODE_PATTERN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -765,7 +743,6 @@ public class CountryJsonApi {
    * Get checkAdvancedPostalCodePattern
    * @return checkAdvancedPostalCodePattern
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHECK_ADVANCED_POSTAL_CODE_PATTERN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -791,7 +768,6 @@ public class CountryJsonApi {
    * Get advancedPostalCodePattern
    * @return advancedPostalCodePattern
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ADVANCED_POSTAL_CODE_PATTERN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -817,7 +793,6 @@ public class CountryJsonApi {
    * Get addressFormat
    * @return addressFormat
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ADDRESS_FORMAT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -843,7 +818,6 @@ public class CountryJsonApi {
    * Get defaultPostalCodePattern
    * @return defaultPostalCodePattern
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_POSTAL_CODE_PATTERN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -863,7 +837,6 @@ public class CountryJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -878,7 +851,6 @@ public class CountryJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -899,7 +871,6 @@ public class CountryJsonApi {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1008,4 +979,3 @@ public class CountryJsonApi {
   }
 
 }
-

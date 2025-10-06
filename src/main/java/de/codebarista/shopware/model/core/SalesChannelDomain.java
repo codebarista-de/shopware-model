@@ -103,7 +103,6 @@ public class SalesChannelDomain {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -129,7 +128,6 @@ public class SalesChannelDomain {
    * Get url
    * @return url
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_URL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -155,7 +153,6 @@ public class SalesChannelDomain {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -181,7 +178,6 @@ public class SalesChannelDomain {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -207,7 +203,6 @@ public class SalesChannelDomain {
    * Get currencyId
    * @return currencyId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -233,7 +228,6 @@ public class SalesChannelDomain {
    * Get snippetSetId
    * @return snippetSetId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SNIPPET_SET_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -259,7 +253,6 @@ public class SalesChannelDomain {
    * Get hreflangUseOnlyLocale
    * @return hreflangUseOnlyLocale
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HREFLANG_USE_ONLY_LOCALE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +278,6 @@ public class SalesChannelDomain {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -305,7 +297,6 @@ public class SalesChannelDomain {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -320,7 +311,6 @@ public class SalesChannelDomain {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -341,7 +331,6 @@ public class SalesChannelDomain {
    * Get language
    * @return language
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -367,7 +356,6 @@ public class SalesChannelDomain {
    * Get currency
    * @return currency
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -393,7 +381,6 @@ public class SalesChannelDomain {
    * Get salesChannelDefaultHreflang
    * @return salesChannelDefaultHreflang
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_DEFAULT_HREFLANG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -470,4 +457,3 @@ public class SalesChannelDomain {
   }
 
 }
-

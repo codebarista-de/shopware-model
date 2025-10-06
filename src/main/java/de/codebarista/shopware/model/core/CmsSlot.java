@@ -113,7 +113,6 @@ public class CmsSlot {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -139,7 +138,6 @@ public class CmsSlot {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -165,7 +163,6 @@ public class CmsSlot {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -191,7 +188,6 @@ public class CmsSlot {
    * Get slot
    * @return slot
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SLOT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -217,7 +213,6 @@ public class CmsSlot {
    * Get locked
    * @return locked
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LOCKED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -243,7 +238,6 @@ public class CmsSlot {
    * Get config
    * @return config
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONFIG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -269,7 +263,6 @@ public class CmsSlot {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -289,7 +282,6 @@ public class CmsSlot {
    * Get data
    * @return data
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DATA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -310,7 +302,6 @@ public class CmsSlot {
    * Get blockId
    * @return blockId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_BLOCK_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -336,7 +327,6 @@ public class CmsSlot {
    * Get fieldConfig
    * @return fieldConfig
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIELD_CONFIG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -362,7 +352,6 @@ public class CmsSlot {
    * Get cmsBlockVersionId
    * @return cmsBlockVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_BLOCK_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -382,7 +371,6 @@ public class CmsSlot {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -397,7 +385,6 @@ public class CmsSlot {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -418,7 +405,6 @@ public class CmsSlot {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -444,7 +430,6 @@ public class CmsSlot {
    * Get block
    * @return block
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BLOCK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -525,4 +510,3 @@ public class CmsSlot {
   }
 
 }
-

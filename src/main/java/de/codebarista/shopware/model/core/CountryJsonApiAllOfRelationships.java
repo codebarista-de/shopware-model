@@ -45,7 +45,6 @@ public class CountryJsonApiAllOfRelationships {
    * Get states
    * @return states
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class CountryJsonApiAllOfRelationships {
   }
 
 }
-

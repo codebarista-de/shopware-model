@@ -57,7 +57,6 @@ public class CartAllOfPrice {
    * Net price of the cart
    * @return netPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NET_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class CartAllOfPrice {
    * Total price of the cart, including shipping costs, discounts and taxes
    * @return totalPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +107,6 @@ public class CartAllOfPrice {
    * Price for all line items in the cart
    * @return positionPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +132,6 @@ public class CartAllOfPrice {
    * Tax calculation for the cart. One of &#x60;gross&#x60;, &#x60;net&#x60; or &#x60;tax-free&#x60;
    * @return taxStatus
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,4 +190,3 @@ public class CartAllOfPrice {
   }
 
 }
-

@@ -45,7 +45,6 @@ public class GetCustomerRecoveryIsExpiredRequest {
    * Parameter from the link in the confirmation mail sent in Step 1
    * @return hash
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HASH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -98,4 +97,3 @@ public class GetCustomerRecoveryIsExpiredRequest {
   }
 
 }
-

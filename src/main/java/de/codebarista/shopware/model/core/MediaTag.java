@@ -59,7 +59,6 @@ public class MediaTag {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -85,7 +84,6 @@ public class MediaTag {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -111,7 +109,6 @@ public class MediaTag {
    * Get tagId
    * @return tagId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TAG_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -137,7 +134,6 @@ public class MediaTag {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -163,7 +159,6 @@ public class MediaTag {
    * Get tag
    * @return tag
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -224,4 +219,3 @@ public class MediaTag {
   }
 
 }
-

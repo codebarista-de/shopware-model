@@ -53,7 +53,6 @@ public class CmsBlockVisibility {
    * Get mobile
    * @return mobile
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MOBILE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -79,7 +78,6 @@ public class CmsBlockVisibility {
    * Get desktop
    * @return desktop
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESKTOP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class CmsBlockVisibility {
    * Get tablet
    * @return tablet
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TABLET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class CmsBlockVisibility {
   }
 
 }
-

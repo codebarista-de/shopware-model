@@ -49,7 +49,6 @@ public class LandingPageJsonApiAllOfRelationships {
    * Get cmsPage
    * @return cmsPage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -75,7 +74,6 @@ public class LandingPageJsonApiAllOfRelationships {
    * Get seoUrls
    * @return seoUrls
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEO_URLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -130,4 +128,3 @@ public class LandingPageJsonApiAllOfRelationships {
   }
 
 }
-

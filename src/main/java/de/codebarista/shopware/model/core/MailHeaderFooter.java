@@ -95,7 +95,6 @@ public class MailHeaderFooter {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -121,7 +120,6 @@ public class MailHeaderFooter {
    * Get systemDefault
    * @return systemDefault
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SYSTEM_DEFAULT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -147,7 +145,6 @@ public class MailHeaderFooter {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -173,7 +170,6 @@ public class MailHeaderFooter {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -199,7 +195,6 @@ public class MailHeaderFooter {
    * Get headerHtml
    * @return headerHtml
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HEADER_HTML)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -225,7 +220,6 @@ public class MailHeaderFooter {
    * Get headerPlain
    * @return headerPlain
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HEADER_PLAIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -251,7 +245,6 @@ public class MailHeaderFooter {
    * Get footerHtml
    * @return footerHtml
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOOTER_HTML)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -277,7 +270,6 @@ public class MailHeaderFooter {
    * Get footerPlain
    * @return footerPlain
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOOTER_PLAIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -297,7 +289,6 @@ public class MailHeaderFooter {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -312,7 +303,6 @@ public class MailHeaderFooter {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -333,7 +323,6 @@ public class MailHeaderFooter {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -406,4 +395,3 @@ public class MailHeaderFooter {
   }
 
 }
-

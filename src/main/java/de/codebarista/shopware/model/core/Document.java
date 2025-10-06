@@ -136,7 +136,6 @@ public class Document {
      *
      * @return id
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -163,7 +162,6 @@ public class Document {
      *
      * @return documentTypeId
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_DOCUMENT_TYPE_ID)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -190,7 +188,6 @@ public class Document {
      *
      * @return fileType
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_FILE_TYPE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -217,7 +214,6 @@ public class Document {
      *
      * @return referencedDocumentId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_REFERENCED_DOCUMENT_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -244,7 +240,6 @@ public class Document {
      *
      * @return orderId
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_ORDER_ID)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -271,7 +266,6 @@ public class Document {
      *
      * @return documentMediaFileId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOCUMENT_MEDIA_FILE_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -298,7 +292,6 @@ public class Document {
      *
      * @return orderVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ORDER_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -324,7 +317,6 @@ public class Document {
      *
      * @return config
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_CONFIG)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -351,7 +343,6 @@ public class Document {
      *
      * @return sent
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_SENT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -378,7 +369,6 @@ public class Document {
      *
      * @return _static
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_STATIC)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -405,7 +395,6 @@ public class Document {
      *
      * @return deepLinkCode
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_DEEP_LINK_CODE)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -432,7 +421,6 @@ public class Document {
      *
      * @return documentNumber
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOCUMENT_NUMBER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -459,7 +447,6 @@ public class Document {
      *
      * @return customFields
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -480,7 +467,6 @@ public class Document {
      *
      * @return createdAt
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_CREATED_AT)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -494,7 +480,6 @@ public class Document {
      *
      * @return updatedAt
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UPDATED_AT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -514,7 +499,6 @@ public class Document {
      *
      * @return documentType
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOCUMENT_TYPE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -541,7 +525,6 @@ public class Document {
      *
      * @return order
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ORDER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -568,7 +551,6 @@ public class Document {
      *
      * @return referencedDocument
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_REFERENCED_DOCUMENT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -603,7 +585,6 @@ public class Document {
      *
      * @return dependentDocuments
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DEPENDENT_DOCUMENTS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -630,7 +611,6 @@ public class Document {
      *
      * @return documentMediaFile
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOCUMENT_MEDIA_FILE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

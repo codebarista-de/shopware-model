@@ -89,7 +89,6 @@ public class SubscribeToNewsletterRequest {
    * Email address that will receive the confirmation and the newsletter.
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -115,7 +114,6 @@ public class SubscribeToNewsletterRequest {
    * Defines what should be done.
    * @return option
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_OPTION)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -141,7 +139,6 @@ public class SubscribeToNewsletterRequest {
    * Url of the storefront of the shop. This will be used for generating the link to the /newsletter/confirm inside the confirm email.
    * @return storefrontUrl
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STOREFRONT_URL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -167,7 +164,6 @@ public class SubscribeToNewsletterRequest {
    * Identifier of the salutation.
    * @return salutationId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -193,7 +189,6 @@ public class SubscribeToNewsletterRequest {
    * First name
    * @return firstName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -219,7 +214,6 @@ public class SubscribeToNewsletterRequest {
    * Last name
    * @return lastName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -245,7 +239,6 @@ public class SubscribeToNewsletterRequest {
    * Street
    * @return street
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STREET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -271,7 +264,6 @@ public class SubscribeToNewsletterRequest {
    * City
    * @return city
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -297,7 +289,6 @@ public class SubscribeToNewsletterRequest {
    * Zip code
    * @return zipCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ZIP_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -323,7 +314,6 @@ public class SubscribeToNewsletterRequest {
    * Zip code
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -349,7 +339,6 @@ public class SubscribeToNewsletterRequest {
    * Identifier of the language.
    * @return languageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -375,7 +364,6 @@ public class SubscribeToNewsletterRequest {
    * Custom field data that should be added to the subscription.
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -450,4 +438,3 @@ public class SubscribeToNewsletterRequest {
   }
 
 }
-

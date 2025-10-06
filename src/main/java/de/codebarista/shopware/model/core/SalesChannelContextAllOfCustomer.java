@@ -190,7 +190,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get groupId
    * @return groupId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GROUP_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -216,7 +215,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get defaultPaymentMethodId
    * @return defaultPaymentMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -242,7 +240,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -268,7 +265,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -294,7 +290,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get lastPaymentMethodId
    * @return lastPaymentMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -320,7 +315,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get defaultBillingAddressId
    * @return defaultBillingAddressId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_BILLING_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -346,7 +340,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get defaultShippingAddressId
    * @return defaultShippingAddressId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_SHIPPING_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -372,7 +365,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get defaultBillingAddress
    * @return defaultBillingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_BILLING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -398,7 +390,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get defaultShippingAddress
    * @return defaultShippingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_SHIPPING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -424,7 +415,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get activeBillingAddress
    * @return activeBillingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE_BILLING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -450,7 +440,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get activeShippingAddress
    * @return activeShippingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE_SHIPPING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -476,7 +465,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get customerNumber
    * @return customerNumber
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_NUMBER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -502,7 +490,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get salutationId
    * @return salutationId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -528,7 +515,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get firstName
    * @return firstName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -554,7 +540,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get lastName
    * @return lastName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -580,7 +565,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get company
    * @return company
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPANY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -606,7 +590,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get password
    * @return password
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -632,7 +615,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get email
    * @return email
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -658,7 +640,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -684,7 +665,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get affiliateCode
    * @return affiliateCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFFILIATE_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -710,7 +690,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get campaignCode
    * @return campaignCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAMPAIGN_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -736,7 +715,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -762,7 +740,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get doubleOptInRegistration
    * @return doubleOptInRegistration
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOUBLE_OPT_IN_REGISTRATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -788,7 +765,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get doubleOptInEmailSentDate
    * @return doubleOptInEmailSentDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOUBLE_OPT_IN_EMAIL_SENT_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -814,7 +790,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get doubleOptInConfirmDate
    * @return doubleOptInConfirmDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOUBLE_OPT_IN_CONFIRM_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -840,7 +815,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get hash
    * @return hash
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HASH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -866,7 +840,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get guest
    * @return guest
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GUEST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -892,7 +865,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get firstLogin
    * @return firstLogin
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_LOGIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -918,7 +890,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get lastLogin
    * @return lastLogin
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_LOGIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -944,7 +915,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get newsletter
    * @return newsletter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NEWSLETTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -970,7 +940,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get birthday
    * @return birthday
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -996,7 +965,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get lastOrderDate
    * @return lastOrderDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_ORDER_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1022,7 +990,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get orderCount
    * @return orderCount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1048,7 +1015,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get legacyEncoder
    * @return legacyEncoder
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LEGACY_ENCODER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1074,7 +1040,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get legacyPassword
    * @return legacyPassword
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LEGACY_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1100,7 +1065,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get autoIncrement
    * @return autoIncrement
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTO_INCREMENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1126,7 +1090,6 @@ public class SalesChannelContextAllOfCustomer {
    * Get remoteAddress
    * @return remoteAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REMOTE_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1251,4 +1214,3 @@ public class SalesChannelContextAllOfCustomer {
   }
 
 }
-

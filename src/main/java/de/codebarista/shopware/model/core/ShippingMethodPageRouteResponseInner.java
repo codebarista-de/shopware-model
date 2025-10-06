@@ -103,7 +103,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -129,7 +128,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -155,7 +153,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -181,7 +178,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get deliveryTimeId
    * @return deliveryTimeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -207,7 +203,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get deliveryTime
    * @return deliveryTime
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -241,7 +236,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get translations
    * @return translations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -275,7 +269,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get orderDeliveries
    * @return orderDeliveries
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_DELIVERIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -309,7 +302,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get salesChannelDefaultAssignments
    * @return salesChannelDefaultAssignments
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_DEFAULT_ASSIGNMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -343,7 +335,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get salesChannels
    * @return salesChannels
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNELS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -369,7 +360,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get availabilityRule
    * @return availabilityRule
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABILITY_RULE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -395,7 +385,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get availabilityRuleId
    * @return availabilityRuleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABILITY_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -429,7 +418,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get prices
    * @return prices
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -455,7 +443,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -481,7 +468,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -515,7 +501,6 @@ public class ShippingMethodPageRouteResponseInner {
    * Get tags
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -596,4 +581,3 @@ public class ShippingMethodPageRouteResponseInner {
   }
 
 }
-

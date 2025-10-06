@@ -55,7 +55,6 @@ public class MergeProductOnWishlistRequest {
    * List product id
    * @return productIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -108,4 +107,3 @@ public class MergeProductOnWishlistRequest {
   }
 
 }
-

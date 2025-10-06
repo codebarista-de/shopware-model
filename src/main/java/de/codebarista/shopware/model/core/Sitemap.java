@@ -52,7 +52,6 @@ public class Sitemap {
    * Alias which can be used to restrict response fields. For more information see [includes](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#includes-apialias).
    * @return apiAlias
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_API_ALIAS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -78,7 +77,6 @@ public class Sitemap {
    * Get filename
    * @return filename
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILENAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -104,7 +102,6 @@ public class Sitemap {
    * Get created
    * @return created
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -161,4 +158,3 @@ public class Sitemap {
   }
 
 }
-

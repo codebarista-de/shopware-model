@@ -49,7 +49,6 @@ public class ErrorSource {
    * A JSON Pointer [RFC6901] to the associated entity in the request document [e.g. \&quot;/data\&quot; for a primary data object, or \&quot;/data/attributes/title\&quot; for a specific attribute].
    * @return pointer
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POINTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -75,7 +74,6 @@ public class ErrorSource {
    * A string indicating which query parameter caused the error.
    * @return parameter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARAMETER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -130,4 +128,3 @@ public class ErrorSource {
   }
 
 }
-

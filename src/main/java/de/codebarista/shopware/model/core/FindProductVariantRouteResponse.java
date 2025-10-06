@@ -43,7 +43,6 @@ public class FindProductVariantRouteResponse {
    * Get foundCombination
    * @return foundCombination
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOUND_COMBINATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -96,4 +95,3 @@ public class FindProductVariantRouteResponse {
   }
 
 }
-

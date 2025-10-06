@@ -53,7 +53,6 @@ public class ChangeEmailRequest {
    * New email address. Has to be unique amongst all customers
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class ChangeEmailRequest {
    * Confirmation of the new email address.
    * @return emailConfirmation
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL_CONFIRMATION)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -105,7 +103,6 @@ public class ChangeEmailRequest {
    * Customer&#39;s current password
    * @return password
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,4 +159,3 @@ public class ChangeEmailRequest {
   }
 
 }
-

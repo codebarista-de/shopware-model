@@ -137,7 +137,6 @@ public class Media {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -157,7 +156,6 @@ public class Media {
    * Get mimeType
    * @return mimeType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MIME_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -172,7 +170,6 @@ public class Media {
    * Get fileExtension
    * @return fileExtension
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE_EXTENSION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -187,7 +184,6 @@ public class Media {
    * Get uploadedAt
    * @return uploadedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPLOADED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -202,7 +198,6 @@ public class Media {
    * Get fileName
    * @return fileName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -227,7 +222,6 @@ public class Media {
    * Get fileSize
    * @return fileSize
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -242,7 +236,6 @@ public class Media {
    * Get metaData
    * @return metaData
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_DATA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -263,7 +256,6 @@ public class Media {
    * Get alt
    * @return alt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ALT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -289,7 +281,6 @@ public class Media {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -315,7 +306,6 @@ public class Media {
    * Runtime field, cannot be used as part of the criteria.
    * @return url
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -341,7 +331,6 @@ public class Media {
    * Get path
    * @return path
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PATH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -367,7 +356,6 @@ public class Media {
    * Runtime field, cannot be used as part of the criteria.
    * @return hasFile
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HAS_FILE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -393,7 +381,6 @@ public class Media {
    * Get _private
    * @return _private
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRIVATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -419,7 +406,6 @@ public class Media {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -439,7 +425,6 @@ public class Media {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -454,7 +439,6 @@ public class Media {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -475,7 +459,6 @@ public class Media {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -509,7 +492,6 @@ public class Media {
    * Get thumbnails
    * @return thumbnails
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THUMBNAILS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -596,4 +578,3 @@ public class Media {
   }
 
 }
-

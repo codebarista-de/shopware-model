@@ -121,7 +121,6 @@ public class Theme {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -147,7 +146,6 @@ public class Theme {
    * Get technicalName
    * @return technicalName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TECHNICAL_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -173,7 +171,6 @@ public class Theme {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -199,7 +196,6 @@ public class Theme {
    * Get author
    * @return author
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_AUTHOR)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -225,7 +221,6 @@ public class Theme {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -251,7 +246,6 @@ public class Theme {
    * Get labels
    * @return labels
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LABELS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -277,7 +271,6 @@ public class Theme {
    * Get helpTexts
    * @return helpTexts
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HELP_TEXTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -303,7 +296,6 @@ public class Theme {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -329,7 +321,6 @@ public class Theme {
    * Get previewMediaId
    * @return previewMediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PREVIEW_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -355,7 +346,6 @@ public class Theme {
    * Get parentThemeId
    * @return parentThemeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT_THEME_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -381,7 +371,6 @@ public class Theme {
    * Get baseConfig
    * @return baseConfig
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BASE_CONFIG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -407,7 +396,6 @@ public class Theme {
    * Get configValues
    * @return configValues
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONFIG_VALUES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -433,7 +421,6 @@ public class Theme {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -453,7 +440,6 @@ public class Theme {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -468,7 +454,6 @@ public class Theme {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -489,7 +474,6 @@ public class Theme {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -523,7 +507,6 @@ public class Theme {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -608,4 +591,3 @@ public class Theme {
   }
 
 }
-

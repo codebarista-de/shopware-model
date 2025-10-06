@@ -55,7 +55,6 @@ public class CustomerTag {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -81,7 +80,6 @@ public class CustomerTag {
    * Get customerId
    * @return customerId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CUSTOMER_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -107,7 +105,6 @@ public class CustomerTag {
    * Get tagId
    * @return tagId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TAG_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -133,7 +130,6 @@ public class CustomerTag {
    * Get tag
    * @return tag
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -192,4 +188,3 @@ public class CustomerTag {
   }
 
 }
-

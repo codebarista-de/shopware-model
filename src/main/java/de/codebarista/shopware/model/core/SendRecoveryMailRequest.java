@@ -49,7 +49,6 @@ public class SendRecoveryMailRequest {
    * E-Mail address to identify the customer
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -75,7 +74,6 @@ public class SendRecoveryMailRequest {
    * URL of the storefront to use for the generated reset link. It has to be a domain that is configured in the sales channel domain settings.
    * @return storefrontUrl
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STOREFRONT_URL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -130,4 +128,3 @@ public class SendRecoveryMailRequest {
   }
 
 }
-

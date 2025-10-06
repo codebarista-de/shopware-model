@@ -8,7 +8,13 @@ plugins {
 }
 
 group = 'de.codebarista'
-version = '0.0.2'
+version = '0.0.3'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
 
 repositories {
     mavenCentral()
@@ -89,7 +95,11 @@ mavenPublishing {
     }
 
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
-    signAllPublications()
+
+    // Only sign if publishing to Maven Central (not for local)
+    if (project.hasProperty("signing.keyId")) {
+        signAllPublications()
+    }
 }
 
 tasks.register('printVersion') {

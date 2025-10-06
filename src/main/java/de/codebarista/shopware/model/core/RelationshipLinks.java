@@ -51,7 +51,6 @@ public class RelationshipLinks extends HashMap<String, Object> {
    * Get self
    * @return self
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SELF)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -77,7 +76,6 @@ public class RelationshipLinks extends HashMap<String, Object> {
    * Get related
    * @return related
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -134,4 +132,3 @@ public class RelationshipLinks extends HashMap<String, Object> {
   }
 
 }
-

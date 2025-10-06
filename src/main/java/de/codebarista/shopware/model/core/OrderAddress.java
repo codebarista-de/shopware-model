@@ -139,7 +139,6 @@ public class OrderAddress {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -165,7 +164,6 @@ public class OrderAddress {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -191,7 +189,6 @@ public class OrderAddress {
    * Get countryId
    * @return countryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_COUNTRY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -217,7 +214,6 @@ public class OrderAddress {
    * Get countryStateId
    * @return countryStateId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY_STATE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -243,7 +239,6 @@ public class OrderAddress {
    * Get firstName
    * @return firstName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -269,7 +264,6 @@ public class OrderAddress {
    * Get lastName
    * @return lastName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -295,7 +289,6 @@ public class OrderAddress {
    * Get street
    * @return street
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STREET)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -321,7 +314,6 @@ public class OrderAddress {
    * Get zipcode
    * @return zipcode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ZIPCODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -347,7 +339,6 @@ public class OrderAddress {
    * Get city
    * @return city
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CITY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -373,7 +364,6 @@ public class OrderAddress {
    * Get company
    * @return company
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPANY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -399,7 +389,6 @@ public class OrderAddress {
    * Get department
    * @return department
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEPARTMENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -425,7 +414,6 @@ public class OrderAddress {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -451,7 +439,6 @@ public class OrderAddress {
    * Get vatId
    * @return vatId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VAT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -477,7 +464,6 @@ public class OrderAddress {
    * Get phoneNumber
    * @return phoneNumber
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PHONE_NUMBER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -503,7 +489,6 @@ public class OrderAddress {
    * Get additionalAddressLine1
    * @return additionalAddressLine1
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ADDITIONAL_ADDRESS_LINE1)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -529,7 +514,6 @@ public class OrderAddress {
    * Get additionalAddressLine2
    * @return additionalAddressLine2
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ADDITIONAL_ADDRESS_LINE2)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -555,7 +539,6 @@ public class OrderAddress {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -575,7 +558,6 @@ public class OrderAddress {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -590,7 +572,6 @@ public class OrderAddress {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -611,7 +592,6 @@ public class OrderAddress {
    * Get country
    * @return country
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -637,7 +617,6 @@ public class OrderAddress {
    * Get countryState
    * @return countryState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -663,7 +642,6 @@ public class OrderAddress {
    * Get salutation
    * @return salutation
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -758,4 +736,3 @@ public class OrderAddress {
   }
 
 }
-

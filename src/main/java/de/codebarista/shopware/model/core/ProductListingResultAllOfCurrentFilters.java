@@ -67,7 +67,6 @@ public class ProductListingResultAllOfCurrentFilters {
    * Get navigationId
    * @return navigationId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -101,7 +100,6 @@ public class ProductListingResultAllOfCurrentFilters {
    * Get manufacturer
    * @return manufacturer
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANUFACTURER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -127,7 +125,6 @@ public class ProductListingResultAllOfCurrentFilters {
    * Get price
    * @return price
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -153,7 +150,6 @@ public class ProductListingResultAllOfCurrentFilters {
    * Get rating
    * @return rating
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RATING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -179,7 +175,6 @@ public class ProductListingResultAllOfCurrentFilters {
    * Get shippingFree
    * @return shippingFree
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_FREE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -213,7 +208,6 @@ public class ProductListingResultAllOfCurrentFilters {
    * Get properties
    * @return properties
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROPERTIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -276,4 +270,3 @@ public class ProductListingResultAllOfCurrentFilters {
   }
 
 }
-

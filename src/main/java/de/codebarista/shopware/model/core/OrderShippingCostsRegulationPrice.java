@@ -45,7 +45,6 @@ public class OrderShippingCostsRegulationPrice {
    * Get price
    * @return price
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class OrderShippingCostsRegulationPrice {
   }
 
 }
-

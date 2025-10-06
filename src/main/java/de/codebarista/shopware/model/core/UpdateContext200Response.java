@@ -51,7 +51,6 @@ public class UpdateContext200Response {
    * @deprecated
   **/
   @Deprecated
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTEXT_TOKEN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -77,7 +76,6 @@ public class UpdateContext200Response {
    * Define the URL which browser will be redirected to
    * @return redirectUrl
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REDIRECT_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -132,4 +130,3 @@ public class UpdateContext200Response {
   }
 
 }
-

@@ -66,7 +66,6 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
    * Get orderId
    * @return orderId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -92,7 +91,6 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
    * Get shippingOrderAddressId
    * @return shippingOrderAddressId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_ORDER_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -118,7 +116,6 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -144,7 +141,6 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
    * Get shippingDateEarliest
    * @return shippingDateEarliest
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_DATE_EARLIEST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -170,7 +166,6 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
    * Get shippingDateLatest
    * @return shippingDateLatest
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_DATE_LATEST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -196,7 +191,6 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
    * Get stateId
    * @return stateId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -259,4 +253,3 @@ public class ShippingMethodPageRouteResponseInnerOrderDeliveriesInner {
   }
 
 }
-

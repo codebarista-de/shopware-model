@@ -57,7 +57,6 @@ public class ShippingMethodPageRouteResponseInnerAvailabilityRule {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class ShippingMethodPageRouteResponseInnerAvailabilityRule {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +107,6 @@ public class ShippingMethodPageRouteResponseInnerAvailabilityRule {
    * Get priority
    * @return priority
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRIORITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +132,6 @@ public class ShippingMethodPageRouteResponseInnerAvailabilityRule {
    * Get invalid
    * @return invalid
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INVALID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,4 +190,3 @@ public class ShippingMethodPageRouteResponseInnerAvailabilityRule {
   }
 
 }
-

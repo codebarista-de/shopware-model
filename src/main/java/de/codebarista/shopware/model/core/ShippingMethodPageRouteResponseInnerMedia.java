@@ -98,7 +98,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get userId
    * @return userId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -124,7 +123,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get mimeType
    * @return mimeType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MIME_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -150,7 +148,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get fileExtension
    * @return fileExtension
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE_EXTENSION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -176,7 +173,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get fileSize
    * @return fileSize
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -202,7 +198,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -228,7 +223,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get metaDataRaw
    * @return metaDataRaw
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_DATA_RAW)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -254,7 +248,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get mediaTypeRaw
    * @return mediaTypeRaw
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_TYPE_RAW)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -280,7 +273,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get uploadedAt
    * @return uploadedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPLOADED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -306,7 +298,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get alt
    * @return alt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ALT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -332,7 +323,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get url
    * @return url
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -358,7 +348,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get fileName
    * @return fileName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -384,7 +373,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get mediaFolderId
    * @return mediaFolderId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_FOLDER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -410,7 +398,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get _private
    * @return _private
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRIVATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -436,7 +423,6 @@ public class ShippingMethodPageRouteResponseInnerMedia {
    * Get thumbnailsRo
    * @return thumbnailsRo
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THUMBNAILS_RO)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -515,4 +501,3 @@ public class ShippingMethodPageRouteResponseInnerMedia {
   }
 
 }
-

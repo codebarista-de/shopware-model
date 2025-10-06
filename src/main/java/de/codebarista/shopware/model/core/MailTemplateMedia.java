@@ -63,7 +63,6 @@ public class MailTemplateMedia {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -89,7 +88,6 @@ public class MailTemplateMedia {
    * Get mailTemplateId
    * @return mailTemplateId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_MAIL_TEMPLATE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -115,7 +113,6 @@ public class MailTemplateMedia {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -141,7 +138,6 @@ public class MailTemplateMedia {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -167,7 +163,6 @@ public class MailTemplateMedia {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -193,7 +188,6 @@ public class MailTemplateMedia {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -256,4 +250,3 @@ public class MailTemplateMedia {
   }
 
 }
-

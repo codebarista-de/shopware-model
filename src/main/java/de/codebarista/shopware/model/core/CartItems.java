@@ -49,7 +49,6 @@ public class CartItems {
    * Alias which can be used to restrict response fields. For more information see [includes](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#includes-apialias).
    * @return apiAlias
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_API_ALIAS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class CartItems {
    * Get items
    * @return items
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ITEMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -138,4 +136,3 @@ public class CartItems {
   }
 
 }
-

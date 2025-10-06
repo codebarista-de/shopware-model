@@ -69,7 +69,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -95,7 +94,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -121,7 +119,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -147,7 +144,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get trackingUrl
    * @return trackingUrl
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRACKING_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -173,7 +169,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get deliveryTimeId
    * @return deliveryTimeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -199,7 +194,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get availabilityRuleId
    * @return availabilityRuleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABILITY_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -225,7 +219,6 @@ public class SalesChannelContextAllOfShippingMethod {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -290,4 +283,3 @@ public class SalesChannelContextAllOfShippingMethod {
   }
 
 }
-

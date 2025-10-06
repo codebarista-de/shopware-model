@@ -53,7 +53,6 @@ public class CriteriaAggregationsInner {
    * Give your aggregation an identifier, so you can find it easier
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class CriteriaAggregationsInner {
    * The type of aggregation
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -105,7 +103,6 @@ public class CriteriaAggregationsInner {
    * The field you want to aggregate over.
    * @return field
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIELD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,4 +159,3 @@ public class CriteriaAggregationsInner {
   }
 
 }
-

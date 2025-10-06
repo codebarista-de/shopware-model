@@ -73,7 +73,6 @@ public class OrderShippingCosts {
    * Get unitPrice
    * @return unitPrice
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_UNIT_PRICE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -99,7 +98,6 @@ public class OrderShippingCosts {
    * Get totalPrice
    * @return totalPrice
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -125,7 +123,6 @@ public class OrderShippingCosts {
    * Get quantity
    * @return quantity
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_QUANTITY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -151,7 +148,6 @@ public class OrderShippingCosts {
    * Get calculatedTaxes
    * @return calculatedTaxes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATED_TAXES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +173,6 @@ public class OrderShippingCosts {
    * Get taxRules
    * @return taxRules
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_RULES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +198,6 @@ public class OrderShippingCosts {
    * Get referencePrice
    * @return referencePrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REFERENCE_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +223,6 @@ public class OrderShippingCosts {
    * Get listPrice
    * @return listPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIST_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +248,6 @@ public class OrderShippingCosts {
    * Get regulationPrice
    * @return regulationPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REGULATION_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -322,4 +314,3 @@ public class OrderShippingCosts {
   }
 
 }
-

@@ -49,7 +49,6 @@ public class ProductJsonApiAllOfRelationshipsDeliveryTimeData {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -75,7 +74,6 @@ public class ProductJsonApiAllOfRelationshipsDeliveryTimeData {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -130,4 +128,3 @@ public class ProductJsonApiAllOfRelationshipsDeliveryTimeData {
   }
 
 }
-

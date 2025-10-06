@@ -75,7 +75,6 @@ public class DocumentBaseConfigSalesChannel {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -101,7 +100,6 @@ public class DocumentBaseConfigSalesChannel {
    * Get documentBaseConfigId
    * @return documentBaseConfigId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DOCUMENT_BASE_CONFIG_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -127,7 +125,6 @@ public class DocumentBaseConfigSalesChannel {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -153,7 +150,6 @@ public class DocumentBaseConfigSalesChannel {
    * Get documentTypeId
    * @return documentTypeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOCUMENT_TYPE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -173,7 +169,6 @@ public class DocumentBaseConfigSalesChannel {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -188,7 +183,6 @@ public class DocumentBaseConfigSalesChannel {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -246,4 +240,3 @@ public class DocumentBaseConfigSalesChannel {
   }
 
 }
-

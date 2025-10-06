@@ -85,7 +85,6 @@ public class SendContactMailRequest {
    * Identifier of the salutation. Use &#x60;/api/salutation&#x60; endpoint to fetch possible values.
    * @return salutationId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -111,7 +110,6 @@ public class SendContactMailRequest {
    * Firstname. This field may be required depending on the system settings.
    * @return firstName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +135,6 @@ public class SendContactMailRequest {
    * Lastname. This field may be required depending on the system settings.
    * @return lastName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -163,7 +160,6 @@ public class SendContactMailRequest {
    * Email address
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -189,7 +185,6 @@ public class SendContactMailRequest {
    * Phone. This field may be required depending on the system settings.
    * @return phone
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PHONE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -215,7 +210,6 @@ public class SendContactMailRequest {
    * The subject of the contact form.
    * @return subject
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SUBJECT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -241,7 +235,6 @@ public class SendContactMailRequest {
    * The message of the contact form
    * @return comment
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_COMMENT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -267,7 +260,6 @@ public class SendContactMailRequest {
    * Identifier of the navigation page. Can be used to override the configuration. Take a look at the settings of a category containing a concact form in the administration.
    * @return navigationId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -293,7 +285,6 @@ public class SendContactMailRequest {
    * Identifier of the cms element
    * @return slotId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLOT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -319,7 +310,6 @@ public class SendContactMailRequest {
    * Type of the content management page
    * @return cmsPageType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -345,7 +335,6 @@ public class SendContactMailRequest {
    * Entity name for slot config
    * @return entityName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENTITY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -418,4 +407,3 @@ public class SendContactMailRequest {
   }
 
 }
-

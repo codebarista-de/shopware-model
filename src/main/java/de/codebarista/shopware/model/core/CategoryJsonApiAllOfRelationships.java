@@ -65,7 +65,6 @@ public class CategoryJsonApiAllOfRelationships {
    * Get parent
    * @return parent
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -91,7 +90,6 @@ public class CategoryJsonApiAllOfRelationships {
    * Get children
    * @return children
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHILDREN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -117,7 +115,6 @@ public class CategoryJsonApiAllOfRelationships {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -143,7 +140,6 @@ public class CategoryJsonApiAllOfRelationships {
    * Get tags
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -169,7 +165,6 @@ public class CategoryJsonApiAllOfRelationships {
    * Get cmsPage
    * @return cmsPage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -195,7 +190,6 @@ public class CategoryJsonApiAllOfRelationships {
    * Get seoUrls
    * @return seoUrls
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEO_URLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -258,4 +252,3 @@ public class CategoryJsonApiAllOfRelationships {
   }
 
 }
-

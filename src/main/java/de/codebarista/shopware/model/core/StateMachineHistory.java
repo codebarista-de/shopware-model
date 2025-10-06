@@ -71,7 +71,6 @@ public class StateMachineHistory {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -91,7 +90,6 @@ public class StateMachineHistory {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -106,7 +104,6 @@ public class StateMachineHistory {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -127,7 +124,6 @@ public class StateMachineHistory {
    * Get fromStateMachineState
    * @return fromStateMachineState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FROM_STATE_MACHINE_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -153,7 +149,6 @@ public class StateMachineHistory {
    * Get toStateMachineState
    * @return toStateMachineState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TO_STATE_MACHINE_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -214,4 +209,3 @@ public class StateMachineHistory {
   }
 
 }
-

@@ -59,7 +59,6 @@ public class SearchProductVariantIdsRequest {
    * The options parameter for the variant to find.
    * @return options
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -85,7 +84,6 @@ public class SearchProductVariantIdsRequest {
    * The id of the option group that has been switched.
    * @return switchedGroup
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SWITCHED_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -140,4 +138,3 @@ public class SearchProductVariantIdsRequest {
   }
 
 }
-

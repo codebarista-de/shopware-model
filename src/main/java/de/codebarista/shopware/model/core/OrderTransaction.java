@@ -106,7 +106,6 @@ public class OrderTransaction {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -132,7 +131,6 @@ public class OrderTransaction {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -158,7 +156,6 @@ public class OrderTransaction {
    * Get orderId
    * @return orderId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -184,7 +181,6 @@ public class OrderTransaction {
    * Get orderVersionId
    * @return orderVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -210,7 +206,6 @@ public class OrderTransaction {
    * Get paymentMethodId
    * @return paymentMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -236,7 +231,6 @@ public class OrderTransaction {
    * Get amount
    * @return amount
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_AMOUNT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -262,7 +256,6 @@ public class OrderTransaction {
    * Get stateId
    * @return stateId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STATE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -288,7 +281,6 @@ public class OrderTransaction {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -308,7 +300,6 @@ public class OrderTransaction {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -323,7 +314,6 @@ public class OrderTransaction {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -344,7 +334,6 @@ public class OrderTransaction {
    * Get stateMachineState
    * @return stateMachineState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATE_MACHINE_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -370,7 +359,6 @@ public class OrderTransaction {
    * Get paymentMethod
    * @return paymentMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -404,7 +392,6 @@ public class OrderTransaction {
    * Get captures
    * @return captures
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAPTURES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
