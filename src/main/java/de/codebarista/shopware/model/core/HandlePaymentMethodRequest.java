@@ -53,7 +53,6 @@ public class HandlePaymentMethodRequest {
    * Identifier of an order
    * @return orderId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class HandlePaymentMethodRequest {
    * URL to which the client should be redirected after successful payment
    * @return finishUrl
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FINISH_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class HandlePaymentMethodRequest {
    * URL to which the client should be redirected after erroneous payment
    * @return errorUrl
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ERROR_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class HandlePaymentMethodRequest {
   }
 
 }
-

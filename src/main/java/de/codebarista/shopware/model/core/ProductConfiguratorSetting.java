@@ -99,7 +99,6 @@ public class ProductConfiguratorSetting {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +124,6 @@ public class ProductConfiguratorSetting {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +149,6 @@ public class ProductConfiguratorSetting {
    * Get productId
    * @return productId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRODUCT_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -177,7 +174,6 @@ public class ProductConfiguratorSetting {
    * Get productVersionId
    * @return productVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +199,6 @@ public class ProductConfiguratorSetting {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +224,6 @@ public class ProductConfiguratorSetting {
    * Get optionId
    * @return optionId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_OPTION_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -255,7 +249,6 @@ public class ProductConfiguratorSetting {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -281,7 +274,6 @@ public class ProductConfiguratorSetting {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -301,7 +293,6 @@ public class ProductConfiguratorSetting {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -316,7 +307,6 @@ public class ProductConfiguratorSetting {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -337,7 +327,6 @@ public class ProductConfiguratorSetting {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -363,7 +352,6 @@ public class ProductConfiguratorSetting {
    * Get option
    * @return option
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -438,4 +426,3 @@ public class ProductConfiguratorSetting {
   }
 
 }
-

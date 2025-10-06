@@ -43,7 +43,6 @@ public class SuccessResponse {
    * Get success
    * @return success
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SUCCESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -96,4 +95,3 @@ public class SuccessResponse {
   }
 
 }
-

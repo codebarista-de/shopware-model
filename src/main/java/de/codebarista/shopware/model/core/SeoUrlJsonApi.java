@@ -136,7 +136,6 @@ public class SeoUrlJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,7 +161,6 @@ public class SeoUrlJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -196,7 +194,6 @@ public class SeoUrlJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -222,7 +219,6 @@ public class SeoUrlJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public Relationships getRelationships() {
@@ -264,7 +260,6 @@ public class SeoUrlJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -298,7 +293,6 @@ public class SeoUrlJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -324,7 +318,6 @@ public class SeoUrlJsonApi {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -350,7 +343,6 @@ public class SeoUrlJsonApi {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -376,7 +368,6 @@ public class SeoUrlJsonApi {
    * Get foreignKey
    * @return foreignKey
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FOREIGN_KEY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -402,7 +393,6 @@ public class SeoUrlJsonApi {
    * Get routeName
    * @return routeName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ROUTE_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -428,7 +418,6 @@ public class SeoUrlJsonApi {
    * Get pathInfo
    * @return pathInfo
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PATH_INFO)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -454,7 +443,6 @@ public class SeoUrlJsonApi {
    * Get seoPathInfo
    * @return seoPathInfo
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SEO_PATH_INFO)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -480,7 +468,6 @@ public class SeoUrlJsonApi {
    * Get isCanonical
    * @return isCanonical
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_CANONICAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -506,7 +493,6 @@ public class SeoUrlJsonApi {
    * Get isModified
    * @return isModified
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_MODIFIED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -532,7 +518,6 @@ public class SeoUrlJsonApi {
    * Get isDeleted
    * @return isDeleted
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_DELETED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -558,7 +543,6 @@ public class SeoUrlJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return url
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -584,7 +568,6 @@ public class SeoUrlJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -610,7 +593,6 @@ public class SeoUrlJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return isValid
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_VALID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -630,7 +612,6 @@ public class SeoUrlJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -645,7 +626,6 @@ public class SeoUrlJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -742,4 +722,3 @@ public class SeoUrlJsonApi {
   }
 
 }
-

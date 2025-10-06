@@ -51,7 +51,6 @@ public class FindProductVariantRouteResponseFoundCombination {
    * Get variantId
    * @return variantId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VARIANT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -85,7 +84,6 @@ public class FindProductVariantRouteResponseFoundCombination {
    * Get options
    * @return options
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -140,4 +138,3 @@ public class FindProductVariantRouteResponseFoundCombination {
   }
 
 }
-

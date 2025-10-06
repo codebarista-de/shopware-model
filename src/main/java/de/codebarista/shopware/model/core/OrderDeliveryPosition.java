@@ -103,7 +103,6 @@ public class OrderDeliveryPosition {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -129,7 +128,6 @@ public class OrderDeliveryPosition {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -155,7 +153,6 @@ public class OrderDeliveryPosition {
    * Get orderDeliveryId
    * @return orderDeliveryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_DELIVERY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -181,7 +178,6 @@ public class OrderDeliveryPosition {
    * Get orderDeliveryVersionId
    * @return orderDeliveryVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_DELIVERY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -207,7 +203,6 @@ public class OrderDeliveryPosition {
    * Get orderLineItemId
    * @return orderLineItemId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_LINE_ITEM_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -233,7 +228,6 @@ public class OrderDeliveryPosition {
    * Get orderLineItemVersionId
    * @return orderLineItemVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_LINE_ITEM_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -259,7 +253,6 @@ public class OrderDeliveryPosition {
    * Get price
    * @return price
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +278,6 @@ public class OrderDeliveryPosition {
    * Get unitPrice
    * @return unitPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UNIT_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -311,7 +303,6 @@ public class OrderDeliveryPosition {
    * Get totalPrice
    * @return totalPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -337,7 +328,6 @@ public class OrderDeliveryPosition {
    * Get quantity
    * @return quantity
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUANTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -363,7 +353,6 @@ public class OrderDeliveryPosition {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -383,7 +372,6 @@ public class OrderDeliveryPosition {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -398,7 +386,6 @@ public class OrderDeliveryPosition {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -470,4 +457,3 @@ public class OrderDeliveryPosition {
   }
 
 }
-

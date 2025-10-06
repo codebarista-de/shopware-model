@@ -51,7 +51,6 @@ public class LandingPageJsonApiAllOfRelationshipsSeoUrls {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -85,7 +84,6 @@ public class LandingPageJsonApiAllOfRelationshipsSeoUrls {
    * Get data
    * @return data
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DATA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -140,4 +138,3 @@ public class LandingPageJsonApiAllOfRelationshipsSeoUrls {
   }
 
 }
-

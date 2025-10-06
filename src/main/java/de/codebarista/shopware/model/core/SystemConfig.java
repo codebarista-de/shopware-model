@@ -79,7 +79,6 @@ public class SystemConfig {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +104,6 @@ public class SystemConfig {
    * Get configurationKey
    * @return configurationKey
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CONFIGURATION_KEY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -131,7 +129,6 @@ public class SystemConfig {
    * Get configurationValue
    * @return configurationValue
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CONFIGURATION_VALUE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -157,7 +154,6 @@ public class SystemConfig {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +173,6 @@ public class SystemConfig {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -192,7 +187,6 @@ public class SystemConfig {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -213,7 +207,6 @@ public class SystemConfig {
    * Get salesChannel
    * @return salesChannel
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -278,4 +271,3 @@ public class SystemConfig {
   }
 
 }
-

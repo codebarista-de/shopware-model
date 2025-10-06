@@ -99,7 +99,6 @@ public class PropertyGroupOption {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +124,6 @@ public class PropertyGroupOption {
    * Get groupId
    * @return groupId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_GROUP_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -151,7 +149,6 @@ public class PropertyGroupOption {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -177,7 +174,6 @@ public class PropertyGroupOption {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +199,6 @@ public class PropertyGroupOption {
    * Get colorHexCode
    * @return colorHexCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COLOR_HEX_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +224,6 @@ public class PropertyGroupOption {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +249,6 @@ public class PropertyGroupOption {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -275,7 +268,6 @@ public class PropertyGroupOption {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -290,7 +282,6 @@ public class PropertyGroupOption {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -311,7 +302,6 @@ public class PropertyGroupOption {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -337,7 +327,6 @@ public class PropertyGroupOption {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -363,7 +352,6 @@ public class PropertyGroupOption {
    * Get group
    * @return group
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -438,4 +426,3 @@ public class PropertyGroupOption {
   }
 
 }
-

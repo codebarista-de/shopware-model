@@ -125,7 +125,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get typeId
    * @return typeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +150,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +175,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get currencyId
    * @return currencyId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +200,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get paymentMethodId
    * @return paymentMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +225,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +250,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get countryId
    * @return countryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -281,7 +275,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get navigationCategoryId
    * @return navigationCategoryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -307,7 +300,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get navigationCategoryDepth
    * @return navigationCategoryDepth
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_CATEGORY_DEPTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -333,7 +325,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get footerCategoryId
    * @return footerCategoryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOOTER_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -359,7 +350,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get serviceCategoryId
    * @return serviceCategoryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SERVICE_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -385,7 +375,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -411,7 +400,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get shortName
    * @return shortName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHORT_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -437,7 +425,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get accessKey
    * @return accessKey
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACCESS_KEY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -463,7 +450,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -489,7 +475,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get maintenance
    * @return maintenance
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAINTENANCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -515,7 +500,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get maintenanceIpWhitelist
    * @return maintenanceIpWhitelist
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAINTENANCE_IP_WHITELIST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -541,7 +525,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get mailHeaderFooterId
    * @return mailHeaderFooterId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAIL_HEADER_FOOTER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -567,7 +550,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get customerGroupId
    * @return customerGroupId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_GROUP_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -593,7 +575,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get hreflangActive
    * @return hreflangActive
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HREFLANG_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -619,7 +600,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get hreflangDefaultDomainId
    * @return hreflangDefaultDomainId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HREFLANG_DEFAULT_DOMAIN_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -645,7 +625,6 @@ public class SalesChannelContextAllOfSalesChannel {
    * Get analyticsId
    * @return analyticsId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ANALYTICS_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -738,4 +717,3 @@ public class SalesChannelContextAllOfSalesChannel {
   }
 
 }
-

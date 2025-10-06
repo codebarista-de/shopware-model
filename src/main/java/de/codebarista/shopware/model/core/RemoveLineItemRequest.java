@@ -55,7 +55,6 @@ public class RemoveLineItemRequest {
    * A list of product identifiers.
    * @return ids
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_IDS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -108,4 +107,3 @@ public class RemoveLineItemRequest {
   }
 
 }
-

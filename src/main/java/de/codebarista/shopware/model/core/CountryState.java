@@ -91,7 +91,6 @@ public class CountryState {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -117,7 +116,6 @@ public class CountryState {
    * Get countryId
    * @return countryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_COUNTRY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -143,7 +141,6 @@ public class CountryState {
    * Get shortCode
    * @return shortCode
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHORT_CODE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -169,7 +166,6 @@ public class CountryState {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -195,7 +191,6 @@ public class CountryState {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -221,7 +216,6 @@ public class CountryState {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -247,7 +241,6 @@ public class CountryState {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -267,7 +260,6 @@ public class CountryState {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -282,7 +274,6 @@ public class CountryState {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -303,7 +294,6 @@ public class CountryState {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -374,4 +364,3 @@ public class CountryState {
   }
 
 }
-

@@ -50,7 +50,6 @@ public class ProductListingFlags {
    * Resets all aggregations in the criteria. This parameter is a flag, the value has no effect.
    * @return noAggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public String getNoAggregations() {
@@ -84,7 +83,6 @@ public class ProductListingFlags {
    * If this flag is set, no products are fetched. Sorting and associations are also ignored. This parameter is a flag, the value has no effect.
    * @return onlyAggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public String getOnlyAggregations() {
@@ -158,4 +156,3 @@ public class ProductListingFlags {
   }
 
 }
-

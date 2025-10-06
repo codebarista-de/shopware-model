@@ -104,7 +104,6 @@ public class DocumentBaseConfig {
      *
      * @return id
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -131,7 +130,6 @@ public class DocumentBaseConfig {
      *
      * @return documentTypeId
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_DOCUMENT_TYPE_ID)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -158,7 +156,6 @@ public class DocumentBaseConfig {
      *
      * @return logoId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_LOGO_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -185,7 +182,6 @@ public class DocumentBaseConfig {
      *
      * @return name
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_NAME)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -212,7 +208,6 @@ public class DocumentBaseConfig {
      *
      * @return filenamePrefix
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_FILENAME_PREFIX)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -239,7 +234,6 @@ public class DocumentBaseConfig {
      *
      * @return filenameSuffix
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_FILENAME_SUFFIX)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -266,7 +260,6 @@ public class DocumentBaseConfig {
      *
      * @return global
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_GLOBAL)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -293,7 +286,6 @@ public class DocumentBaseConfig {
      *
      * @return documentNumber
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOCUMENT_NUMBER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -320,7 +312,6 @@ public class DocumentBaseConfig {
      *
      * @return config
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CONFIG)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -341,7 +332,6 @@ public class DocumentBaseConfig {
      *
      * @return createdAt
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_CREATED_AT)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -361,7 +351,6 @@ public class DocumentBaseConfig {
      *
      * @return customFields
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -382,7 +371,6 @@ public class DocumentBaseConfig {
      *
      * @return updatedAt
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UPDATED_AT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -402,7 +390,6 @@ public class DocumentBaseConfig {
      *
      * @return logo
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_LOGO)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -479,4 +466,3 @@ public class DocumentBaseConfig {
     }
 
 }
-

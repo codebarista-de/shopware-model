@@ -53,7 +53,6 @@ public class CriteriaFilterInner {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class CriteriaFilterInner {
    * Get field
    * @return field
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIELD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -105,7 +103,6 @@ public class CriteriaFilterInner {
    * Get value
    * @return value
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_VALUE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,4 +159,3 @@ public class CriteriaFilterInner {
   }
 
 }
-

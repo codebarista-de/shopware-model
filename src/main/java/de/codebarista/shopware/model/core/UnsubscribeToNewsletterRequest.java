@@ -45,7 +45,6 @@ public class UnsubscribeToNewsletterRequest {
    * Email address that should be removed from the mailing lists.
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -98,4 +97,3 @@ public class UnsubscribeToNewsletterRequest {
   }
 
 }
-

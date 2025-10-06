@@ -75,7 +75,6 @@ public class MediaThumbnailSize {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -101,7 +100,6 @@ public class MediaThumbnailSize {
    * Get width
    * @return width
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_WIDTH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -127,7 +125,6 @@ public class MediaThumbnailSize {
    * Get height
    * @return height
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HEIGHT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -153,7 +150,6 @@ public class MediaThumbnailSize {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -173,7 +169,6 @@ public class MediaThumbnailSize {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -188,7 +183,6 @@ public class MediaThumbnailSize {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -246,4 +240,3 @@ public class MediaThumbnailSize {
   }
 
 }
-

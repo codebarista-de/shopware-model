@@ -49,7 +49,6 @@ public class WishlistLoadRouteResponse {
    * Get wishlist
    * @return wishlist
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_WISHLIST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class WishlistLoadRouteResponse {
    * Get products
    * @return products
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -138,4 +136,3 @@ public class WishlistLoadRouteResponse {
   }
 
 }
-

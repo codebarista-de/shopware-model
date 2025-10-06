@@ -109,7 +109,6 @@ public class RegisterRequest {
    * Email of the customer. Has to be unique, unless &#x60;guest&#x60; is &#x60;true&#x60;
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -135,7 +134,6 @@ public class RegisterRequest {
    * Password for the customer. Required, unless &#x60;guest&#x60; is &#x60;true&#x60;
    * @return password
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -161,7 +159,6 @@ public class RegisterRequest {
    * Id of the salutation for the customer account. Fetch options using &#x60;salutation&#x60; endpoint.
    * @return salutationId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -187,7 +184,6 @@ public class RegisterRequest {
    * Customer first name. Value will be reused for shipping and billing address if not provided explicitly.
    * @return firstName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -213,7 +209,6 @@ public class RegisterRequest {
    * Customer last name. Value will be reused for shipping and billing address if not provided explicitly.
    * @return lastName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -239,7 +234,6 @@ public class RegisterRequest {
    * Flag indicating accepted data protection
    * @return acceptedDataProtection
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ACCEPTED_DATA_PROTECTION)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -265,7 +259,6 @@ public class RegisterRequest {
    * URL of the storefront for that registration. Used in confirmation emails. Has to be one of the configured domains of the sales channel.
    * @return storefrontUrl
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STOREFRONT_URL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -291,7 +284,6 @@ public class RegisterRequest {
    * Get billingAddress
    * @return billingAddress
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_BILLING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -317,7 +309,6 @@ public class RegisterRequest {
    * Get shippingAddress
    * @return shippingAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -343,7 +334,6 @@ public class RegisterRequest {
    * Account type of the customer which can be either &#x60;private&#x60; or &#x60;business&#x60;.
    * @return accountType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACCOUNT_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -369,7 +359,6 @@ public class RegisterRequest {
    * If set, will create a guest customer. Guest customers can re-use an email address and don&#39;t need a password.
    * @return guest
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GUEST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -395,7 +384,6 @@ public class RegisterRequest {
    * Birthday day
    * @return birthdayDay
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY_DAY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -421,7 +409,6 @@ public class RegisterRequest {
    * Birthday month
    * @return birthdayMonth
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY_MONTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -447,7 +434,6 @@ public class RegisterRequest {
    * Birthday year
    * @return birthdayYear
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY_YEAR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -473,7 +459,6 @@ public class RegisterRequest {
    * (Academic) title of the customer
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -499,7 +484,6 @@ public class RegisterRequest {
    * Field can be used to store an affiliate tracking code
    * @return affiliateCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFFILIATE_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -525,7 +509,6 @@ public class RegisterRequest {
    * Field can be used to store a campaign tracking code
    * @return campaignCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAMPAIGN_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -610,4 +593,3 @@ public class RegisterRequest {
   }
 
 }
-

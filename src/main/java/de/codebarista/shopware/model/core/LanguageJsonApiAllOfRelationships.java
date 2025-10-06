@@ -57,7 +57,6 @@ public class LanguageJsonApiAllOfRelationships {
    * Get parent
    * @return parent
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class LanguageJsonApiAllOfRelationships {
    * Get locale
    * @return locale
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LOCALE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +107,6 @@ public class LanguageJsonApiAllOfRelationships {
    * Get translationCode
    * @return translationCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATION_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -135,7 +132,6 @@ public class LanguageJsonApiAllOfRelationships {
    * Get children
    * @return children
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHILDREN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,4 +190,3 @@ public class LanguageJsonApiAllOfRelationships {
   }
 
 }
-

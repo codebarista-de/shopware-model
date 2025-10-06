@@ -53,7 +53,6 @@ public class CreateOrderRequest {
    * Adds a comment from the customer to the order.
    * @return customerComment
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_COMMENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -79,7 +78,6 @@ public class CreateOrderRequest {
    * The affiliate code can be used to track which referrer the customer came through. An example could be &#x60;Price-comparison-company-XY&#x60;.
    * @return affiliateCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFFILIATE_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class CreateOrderRequest {
    * The campaign code is used to track which action the customer came from. An example could be &#x60;Summer-Deals&#x60;
    * @return campaignCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAMPAIGN_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class CreateOrderRequest {
   }
 
 }
-

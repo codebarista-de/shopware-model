@@ -53,7 +53,6 @@ public class CartAllOfErrors {
    * Get key
    * @return key
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_KEY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -79,7 +78,6 @@ public class CartAllOfErrors {
    * Get level
    * @return level
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LEVEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class CartAllOfErrors {
    * Get message
    * @return message
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MESSAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class CartAllOfErrors {
   }
 
 }
-

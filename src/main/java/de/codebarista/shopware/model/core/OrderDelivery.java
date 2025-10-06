@@ -129,7 +129,6 @@ public class OrderDelivery {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -155,7 +154,6 @@ public class OrderDelivery {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -181,7 +179,6 @@ public class OrderDelivery {
    * Get orderId
    * @return orderId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -207,7 +204,6 @@ public class OrderDelivery {
    * Get orderVersionId
    * @return orderVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -233,7 +229,6 @@ public class OrderDelivery {
    * Get shippingOrderAddressId
    * @return shippingOrderAddressId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHIPPING_ORDER_ADDRESS_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -259,7 +254,6 @@ public class OrderDelivery {
    * Get shippingOrderAddressVersionId
    * @return shippingOrderAddressVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_ORDER_ADDRESS_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +279,6 @@ public class OrderDelivery {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -311,7 +304,6 @@ public class OrderDelivery {
    * Get stateId
    * @return stateId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STATE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -345,7 +337,6 @@ public class OrderDelivery {
    * Get trackingCodes
    * @return trackingCodes
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TRACKING_CODES)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -371,7 +362,6 @@ public class OrderDelivery {
    * Get shippingDateEarliest
    * @return shippingDateEarliest
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHIPPING_DATE_EARLIEST)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -397,7 +387,6 @@ public class OrderDelivery {
    * Get shippingDateLatest
    * @return shippingDateLatest
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHIPPING_DATE_LATEST)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -423,7 +412,6 @@ public class OrderDelivery {
    * Get shippingCosts
    * @return shippingCosts
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_COSTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -449,7 +437,6 @@ public class OrderDelivery {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -469,7 +456,6 @@ public class OrderDelivery {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -484,7 +470,6 @@ public class OrderDelivery {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -505,7 +490,6 @@ public class OrderDelivery {
    * Get stateMachineState
    * @return stateMachineState
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATE_MACHINE_STATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -531,7 +515,6 @@ public class OrderDelivery {
    * Get shippingOrderAddress
    * @return shippingOrderAddress
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_ORDER_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -557,7 +540,6 @@ public class OrderDelivery {
    * Get shippingMethod
    * @return shippingMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -591,7 +573,6 @@ public class OrderDelivery {
    * Get positions
    * @return positions
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -680,4 +661,3 @@ public class OrderDelivery {
   }
 
 }
-

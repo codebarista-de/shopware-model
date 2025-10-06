@@ -97,7 +97,6 @@ public class MailTemplate {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -123,7 +122,6 @@ public class MailTemplate {
    * Get systemDefault
    * @return systemDefault
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SYSTEM_DEFAULT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -149,7 +147,6 @@ public class MailTemplate {
    * Get senderName
    * @return senderName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SENDER_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -175,7 +172,6 @@ public class MailTemplate {
    * Get contentHtml
    * @return contentHtml
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CONTENT_HTML)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -201,7 +197,6 @@ public class MailTemplate {
    * Get contentPlain
    * @return contentPlain
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CONTENT_PLAIN)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -227,7 +222,6 @@ public class MailTemplate {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -247,7 +241,6 @@ public class MailTemplate {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -262,7 +255,6 @@ public class MailTemplate {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -283,7 +275,6 @@ public class MailTemplate {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -309,7 +300,6 @@ public class MailTemplate {
    * Get mailTemplateType
    * @return mailTemplateType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAIL_TEMPLATE_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -343,7 +333,6 @@ public class MailTemplate {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -416,4 +405,3 @@ public class MailTemplate {
   }
 
 }
-

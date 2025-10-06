@@ -116,7 +116,6 @@ public class CountryStateJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -142,7 +141,6 @@ public class CountryStateJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -176,7 +174,6 @@ public class CountryStateJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -202,7 +199,6 @@ public class CountryStateJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public Relationships getRelationships() {
@@ -244,7 +240,6 @@ public class CountryStateJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -278,7 +273,6 @@ public class CountryStateJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -304,7 +298,6 @@ public class CountryStateJsonApi {
    * Get countryId
    * @return countryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_COUNTRY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -330,7 +323,6 @@ public class CountryStateJsonApi {
    * Get shortCode
    * @return shortCode
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHORT_CODE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -356,7 +348,6 @@ public class CountryStateJsonApi {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -382,7 +373,6 @@ public class CountryStateJsonApi {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -408,7 +398,6 @@ public class CountryStateJsonApi {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -434,7 +423,6 @@ public class CountryStateJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -454,7 +442,6 @@ public class CountryStateJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -469,7 +456,6 @@ public class CountryStateJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -490,7 +476,6 @@ public class CountryStateJsonApi {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -582,4 +567,3 @@ public class CountryStateJsonApi {
   }
 
 }
-

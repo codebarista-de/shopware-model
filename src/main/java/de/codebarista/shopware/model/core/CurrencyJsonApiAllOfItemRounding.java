@@ -53,7 +53,6 @@ public class CurrencyJsonApiAllOfItemRounding {
    * Get decimals
    * @return decimals
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DECIMALS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -79,7 +78,6 @@ public class CurrencyJsonApiAllOfItemRounding {
    * Get interval
    * @return interval
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class CurrencyJsonApiAllOfItemRounding {
    * Get roundForNet
    * @return roundForNet
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ROUND_FOR_NET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class CurrencyJsonApiAllOfItemRounding {
   }
 
 }
-

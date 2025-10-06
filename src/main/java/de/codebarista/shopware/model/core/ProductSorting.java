@@ -79,7 +79,6 @@ public class ProductSorting {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +104,6 @@ public class ProductSorting {
    * Get key
    * @return key
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_KEY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -131,7 +129,6 @@ public class ProductSorting {
    * Get priority
    * @return priority
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRIORITY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -157,7 +154,6 @@ public class ProductSorting {
    * Get label
    * @return label
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LABEL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -177,7 +173,6 @@ public class ProductSorting {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -192,7 +187,6 @@ public class ProductSorting {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -213,7 +207,6 @@ public class ProductSorting {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -278,4 +271,3 @@ public class ProductSorting {
   }
 
 }
-

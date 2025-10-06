@@ -49,7 +49,6 @@ public class ProductListingResultAllOfCurrentFiltersPrice {
    * Get min
    * @return min
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -75,7 +74,6 @@ public class ProductListingResultAllOfCurrentFiltersPrice {
    * Get max
    * @return max
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -130,4 +128,3 @@ public class ProductListingResultAllOfCurrentFiltersPrice {
   }
 
 }
-

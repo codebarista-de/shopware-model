@@ -55,7 +55,6 @@ public class RelationshipToOne {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -81,7 +80,6 @@ public class RelationshipToOne {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -115,7 +113,6 @@ public class RelationshipToOne {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -172,4 +169,3 @@ public class RelationshipToOne {
   }
 
 }
-

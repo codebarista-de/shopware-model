@@ -53,7 +53,6 @@ public class CriteriaSortInner {
    * Get field
    * @return field
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIELD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class CriteriaSortInner {
    * Get order
    * @return order
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class CriteriaSortInner {
    * Get naturalSorting
    * @return naturalSorting
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NATURAL_SORTING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class CriteriaSortInner {
   }
 
 }
-

@@ -111,7 +111,6 @@ public class Currency {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +136,6 @@ public class Currency {
    * Get factor
    * @return factor
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FACTOR)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -163,7 +161,6 @@ public class Currency {
    * Get symbol
    * @return symbol
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SYMBOL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -189,7 +186,6 @@ public class Currency {
    * Get isoCode
    * @return isoCode
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ISO_CODE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -215,7 +211,6 @@ public class Currency {
    * Get shortName
    * @return shortName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHORT_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -241,7 +236,6 @@ public class Currency {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -267,7 +261,6 @@ public class Currency {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -293,7 +286,6 @@ public class Currency {
    * Runtime field, cannot be used as part of the criteria.
    * @return isSystemDefault
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_SYSTEM_DEFAULT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -319,7 +311,6 @@ public class Currency {
    * Get taxFreeFrom
    * @return taxFreeFrom
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_FREE_FROM)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -345,7 +336,6 @@ public class Currency {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -371,7 +361,6 @@ public class Currency {
    * Get itemRounding
    * @return itemRounding
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ITEM_ROUNDING)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -397,7 +386,6 @@ public class Currency {
    * Get totalRounding
    * @return totalRounding
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TOTAL_ROUNDING)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -417,7 +405,6 @@ public class Currency {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -432,7 +419,6 @@ public class Currency {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -453,7 +439,6 @@ public class Currency {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -534,4 +519,3 @@ public class Currency {
   }
 
 }
-

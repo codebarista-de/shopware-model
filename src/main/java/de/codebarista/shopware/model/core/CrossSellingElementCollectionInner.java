@@ -55,7 +55,6 @@ public class CrossSellingElementCollectionInner {
    * Get crossSelling
    * @return crossSelling
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CROSS_SELLING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -89,7 +88,6 @@ public class CrossSellingElementCollectionInner {
    * Get products
    * @return products
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -115,7 +113,6 @@ public class CrossSellingElementCollectionInner {
    * Get total
    * @return total
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -172,4 +169,3 @@ public class CrossSellingElementCollectionInner {
   }
 
 }
-

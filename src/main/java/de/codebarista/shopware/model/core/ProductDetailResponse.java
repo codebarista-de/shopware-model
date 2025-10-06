@@ -49,7 +49,6 @@ public class ProductDetailResponse {
    * Get product
    * @return product
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -83,7 +82,6 @@ public class ProductDetailResponse {
    * List of property groups with their corresponding options and information on how to display them.
    * @return configurator
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONFIGURATOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -138,4 +136,3 @@ public class ProductDetailResponse {
   }
 
 }
-

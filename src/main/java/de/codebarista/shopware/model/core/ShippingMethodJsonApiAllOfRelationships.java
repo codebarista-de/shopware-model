@@ -65,7 +65,6 @@ public class ShippingMethodJsonApiAllOfRelationships {
    * Get deliveryTime
    * @return deliveryTime
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -91,7 +90,6 @@ public class ShippingMethodJsonApiAllOfRelationships {
    * Get availabilityRule
    * @return availabilityRule
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABILITY_RULE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -117,7 +115,6 @@ public class ShippingMethodJsonApiAllOfRelationships {
    * Get prices
    * @return prices
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -143,7 +140,6 @@ public class ShippingMethodJsonApiAllOfRelationships {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -169,7 +165,6 @@ public class ShippingMethodJsonApiAllOfRelationships {
    * Get tags
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -195,7 +190,6 @@ public class ShippingMethodJsonApiAllOfRelationships {
    * Get tax
    * @return tax
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -258,4 +252,3 @@ public class ShippingMethodJsonApiAllOfRelationships {
   }
 
 }
-

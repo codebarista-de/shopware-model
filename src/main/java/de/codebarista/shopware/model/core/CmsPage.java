@@ -113,7 +113,6 @@ public class CmsPage {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -139,7 +138,6 @@ public class CmsPage {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -165,7 +163,6 @@ public class CmsPage {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -191,7 +188,6 @@ public class CmsPage {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -217,7 +213,6 @@ public class CmsPage {
    * Get entity
    * @return entity
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -243,7 +238,6 @@ public class CmsPage {
    * Get cssClass
    * @return cssClass
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CSS_CLASS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -269,7 +263,6 @@ public class CmsPage {
    * Get config
    * @return config
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONFIG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -295,7 +288,6 @@ public class CmsPage {
    * Get previewMediaId
    * @return previewMediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PREVIEW_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -321,7 +313,6 @@ public class CmsPage {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -341,7 +332,6 @@ public class CmsPage {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -356,7 +346,6 @@ public class CmsPage {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -377,7 +366,6 @@ public class CmsPage {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -411,7 +399,6 @@ public class CmsPage {
    * Get sections
    * @return sections
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SECTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -437,7 +424,6 @@ public class CmsPage {
    * Get previewMedia
    * @return previewMedia
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PREVIEW_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -471,7 +457,6 @@ public class CmsPage {
    * Get landingPages
    * @return landingPages
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANDING_PAGES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -552,4 +537,3 @@ public class CmsPage {
   }
 
 }
-

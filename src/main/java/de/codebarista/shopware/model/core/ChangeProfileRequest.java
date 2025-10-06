@@ -73,7 +73,6 @@ public class ChangeProfileRequest {
    * Id of the salutation for the customer account. Fetch options using &#x60;salutation&#x60; endpoint.
    * @return salutationId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -99,7 +98,6 @@ public class ChangeProfileRequest {
    * (Academic) title of the customer
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +123,6 @@ public class ChangeProfileRequest {
    * Customer first name. Value will be reused for shipping and billing address if not provided explicitly.
    * @return firstName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -151,7 +148,6 @@ public class ChangeProfileRequest {
    * Customer last name. Value will be reused for shipping and billing address if not provided explicitly.
    * @return lastName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -177,7 +173,6 @@ public class ChangeProfileRequest {
    * Company of the customer. Only required when &#x60;accountType&#x60; is &#x60;business&#x60;.
    * @return company
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPANY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +198,6 @@ public class ChangeProfileRequest {
    * Birthday day
    * @return birthdayDay
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY_DAY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +223,6 @@ public class ChangeProfileRequest {
    * Birthday month
    * @return birthdayMonth
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY_MONTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +248,6 @@ public class ChangeProfileRequest {
    * Birthday year
    * @return birthdayYear
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BIRTHDAY_YEAR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -322,4 +314,3 @@ public class ChangeProfileRequest {
   }
 
 }
-

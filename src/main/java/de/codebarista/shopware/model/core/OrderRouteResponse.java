@@ -59,7 +59,6 @@ public class OrderRouteResponse {
    * Get orders
    * @return orders
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -93,7 +92,6 @@ public class OrderRouteResponse {
    * The key-value pairs contain the uuid of the order as key and a boolean as value, indicating that the payment method can still be changed.
    * @return paymentChangeable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_CHANGEABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -148,4 +146,3 @@ public class OrderRouteResponse {
   }
 
 }
-

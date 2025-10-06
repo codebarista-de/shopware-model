@@ -126,7 +126,6 @@ public class ReadPaymentMethodRequest {
    * Search result page
    * @return page
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -152,7 +151,6 @@ public class ReadPaymentMethodRequest {
    * Number of items per result page
    * @return limit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -186,7 +184,6 @@ public class ReadPaymentMethodRequest {
    * List of filters to restrict the search result. For more information, see [Search Queries &gt; Filter](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#filter)
    * @return filter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -220,7 +217,6 @@ public class ReadPaymentMethodRequest {
    * Sorting in the search result.
    * @return sort
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -254,7 +250,6 @@ public class ReadPaymentMethodRequest {
    * Filters that applied without affecting aggregations. For more information, see [Search Queries &gt; Post Filter](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#post-filter)
    * @return postFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POST_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -280,7 +275,6 @@ public class ReadPaymentMethodRequest {
    * Used to fetch associations which are not fetched by default.
    * @return associations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ASSOCIATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -314,7 +308,6 @@ public class ReadPaymentMethodRequest {
    * Used to perform aggregations on the search result. For more information, see [Search Queries &gt; Aggregations](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#aggregations)
    * @return aggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AGGREGATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -348,7 +341,6 @@ public class ReadPaymentMethodRequest {
    * Perform groupings over certain fields
    * @return grouping
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GROUPING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -382,7 +374,6 @@ public class ReadPaymentMethodRequest {
    * Fields which should be returned in the search result.
    * @return fields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -408,7 +399,6 @@ public class ReadPaymentMethodRequest {
    * Whether the total for the total number of hits should be determined for the search query. none &#x3D; disabled total count, exact &#x3D; calculate exact total amount (slow), next-pages &#x3D; calculate only for next page (fast)
    * @return totalCountMode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL_COUNT_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -434,7 +424,6 @@ public class ReadPaymentMethodRequest {
    * List only available
    * @return onlyAvailable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ONLY_AVAILABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -507,4 +496,3 @@ public class ReadPaymentMethodRequest {
   }
 
 }
-

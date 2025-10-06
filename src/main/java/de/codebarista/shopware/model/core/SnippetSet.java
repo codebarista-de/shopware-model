@@ -81,7 +81,6 @@ public class SnippetSet {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -107,7 +106,6 @@ public class SnippetSet {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -133,7 +131,6 @@ public class SnippetSet {
    * Get iso
    * @return iso
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ISO)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -159,7 +156,6 @@ public class SnippetSet {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -179,7 +175,6 @@ public class SnippetSet {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -194,7 +189,6 @@ public class SnippetSet {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -223,7 +217,6 @@ public class SnippetSet {
    * Get snippets
    * @return snippets
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SNIPPETS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -288,4 +281,3 @@ public class SnippetSet {
   }
 
 }
-

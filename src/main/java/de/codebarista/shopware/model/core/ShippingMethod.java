@@ -134,7 +134,6 @@ public class ShippingMethod {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -160,7 +159,6 @@ public class ShippingMethod {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -186,7 +184,6 @@ public class ShippingMethod {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -212,7 +209,6 @@ public class ShippingMethod {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -238,7 +234,6 @@ public class ShippingMethod {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -264,7 +259,6 @@ public class ShippingMethod {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -290,7 +284,6 @@ public class ShippingMethod {
    * Get deliveryTimeId
    * @return deliveryTimeId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -316,7 +309,6 @@ public class ShippingMethod {
    * Get taxType
    * @return taxType
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TAX_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -342,7 +334,6 @@ public class ShippingMethod {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -368,7 +359,6 @@ public class ShippingMethod {
    * Get trackingUrl
    * @return trackingUrl
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRACKING_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -394,7 +384,6 @@ public class ShippingMethod {
    * Get technicalName
    * @return technicalName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TECHNICAL_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -414,7 +403,6 @@ public class ShippingMethod {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -429,7 +417,6 @@ public class ShippingMethod {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -450,7 +437,6 @@ public class ShippingMethod {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -476,7 +462,6 @@ public class ShippingMethod {
    * Get deliveryTime
    * @return deliveryTime
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -502,7 +487,6 @@ public class ShippingMethod {
    * Get availabilityRule
    * @return availabilityRule
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABILITY_RULE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -536,7 +520,6 @@ public class ShippingMethod {
    * Get prices
    * @return prices
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -562,7 +545,6 @@ public class ShippingMethod {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -596,7 +578,6 @@ public class ShippingMethod {
    * Get tags
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -622,7 +603,6 @@ public class ShippingMethod {
    * Get tax
    * @return tax
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -713,4 +693,3 @@ public class ShippingMethod {
   }
 
 }
-

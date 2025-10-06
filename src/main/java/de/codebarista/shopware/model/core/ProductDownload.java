@@ -95,7 +95,6 @@ public class ProductDownload {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -121,7 +120,6 @@ public class ProductDownload {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -147,7 +145,6 @@ public class ProductDownload {
    * Get productId
    * @return productId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRODUCT_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -173,7 +170,6 @@ public class ProductDownload {
    * Get productVersionId
    * @return productVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -199,7 +195,6 @@ public class ProductDownload {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -225,7 +220,6 @@ public class ProductDownload {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -251,7 +245,6 @@ public class ProductDownload {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -271,7 +264,6 @@ public class ProductDownload {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -286,7 +278,6 @@ public class ProductDownload {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -307,7 +298,6 @@ public class ProductDownload {
    * Get product
    * @return product
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -333,7 +323,6 @@ public class ProductDownload {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -406,4 +395,3 @@ public class ProductDownload {
   }
 
 }
-

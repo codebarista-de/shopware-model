@@ -112,7 +112,6 @@ public class OrderCustomer {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -138,7 +137,6 @@ public class OrderCustomer {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -164,7 +162,6 @@ public class OrderCustomer {
    * Get email
    * @return email
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -190,7 +187,6 @@ public class OrderCustomer {
    * Get salutationId
    * @return salutationId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -216,7 +212,6 @@ public class OrderCustomer {
    * Get firstName
    * @return firstName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_FIRST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -242,7 +237,6 @@ public class OrderCustomer {
    * Get lastName
    * @return lastName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LAST_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -268,7 +262,6 @@ public class OrderCustomer {
    * Get company
    * @return company
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMPANY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -294,7 +287,6 @@ public class OrderCustomer {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -328,7 +320,6 @@ public class OrderCustomer {
    * Get vatIds
    * @return vatIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VAT_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -354,7 +345,6 @@ public class OrderCustomer {
    * Get customerNumber
    * @return customerNumber
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_NUMBER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -380,7 +370,6 @@ public class OrderCustomer {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -400,7 +389,6 @@ public class OrderCustomer {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -415,7 +403,6 @@ public class OrderCustomer {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -436,7 +423,6 @@ public class OrderCustomer {
    * Get salutation
    * @return salutation
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALUTATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -455,7 +441,6 @@ public class OrderCustomer {
    * Get customer ID
    * @return customer ID
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -534,4 +519,3 @@ public class OrderCustomer {
   }
 
 }
-

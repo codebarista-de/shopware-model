@@ -105,7 +105,6 @@ public class PropertyGroup {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -131,7 +130,6 @@ public class PropertyGroup {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -157,7 +155,6 @@ public class PropertyGroup {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -183,7 +180,6 @@ public class PropertyGroup {
    * Get displayType
    * @return displayType
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DISPLAY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -209,7 +205,6 @@ public class PropertyGroup {
    * Get sortingType
    * @return sortingType
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SORTING_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -235,7 +230,6 @@ public class PropertyGroup {
    * Get filterable
    * @return filterable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILTERABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -261,7 +255,6 @@ public class PropertyGroup {
    * Get visibleOnProductDetailPage
    * @return visibleOnProductDetailPage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VISIBLE_ON_PRODUCT_DETAIL_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -287,7 +280,6 @@ public class PropertyGroup {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -313,7 +305,6 @@ public class PropertyGroup {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -333,7 +324,6 @@ public class PropertyGroup {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -348,7 +338,6 @@ public class PropertyGroup {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -369,7 +358,6 @@ public class PropertyGroup {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -403,7 +391,6 @@ public class PropertyGroup {
    * Get options
    * @return options
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -480,4 +467,3 @@ public class PropertyGroup {
   }
 
 }
-

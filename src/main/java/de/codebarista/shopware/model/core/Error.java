@@ -79,7 +79,6 @@ public class Error {
    * A unique identifier for this particular occurrence of the problem.
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -113,7 +112,6 @@ public class Error {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -139,7 +137,6 @@ public class Error {
    * The HTTP status code applicable to this problem, expressed as a string value.
    * @return status
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -165,7 +162,6 @@ public class Error {
    * An application-specific error code, expressed as a string value.
    * @return code
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -191,7 +187,6 @@ public class Error {
    * A short, human-readable summary of the problem. It **SHOULD NOT** change from occurrence to occurrence of the problem, except for purposes of localization.
    * @return title
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -217,7 +212,6 @@ public class Error {
    * A human-readable explanation specific to this occurrence of the problem.
    * @return detail
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DETAIL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -243,7 +237,6 @@ public class Error {
    * A human-readable description of the problem.
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -269,7 +262,6 @@ public class Error {
    * Get source
    * @return source
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -303,7 +295,6 @@ public class Error {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -372,4 +363,3 @@ public class Error {
   }
 
 }
-

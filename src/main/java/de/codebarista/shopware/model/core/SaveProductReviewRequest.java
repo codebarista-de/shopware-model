@@ -61,7 +61,6 @@ public class SaveProductReviewRequest {
    * The name of the review author. If not set, the first name of the customer is chosen.
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -87,7 +86,6 @@ public class SaveProductReviewRequest {
    * The email address of the review author. If not set, the email of the customer is chosen.
    * @return email
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EMAIL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -113,7 +111,6 @@ public class SaveProductReviewRequest {
    * The title of the review.
    * @return title
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -139,7 +136,6 @@ public class SaveProductReviewRequest {
    * The content of review.
    * @return content
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CONTENT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -165,7 +161,6 @@ public class SaveProductReviewRequest {
    * The review rating for the product.
    * @return points
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_POINTS)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -226,4 +221,3 @@ public class SaveProductReviewRequest {
   }
 
 }
-

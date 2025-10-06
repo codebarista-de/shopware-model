@@ -91,7 +91,6 @@ public class MediaThumbnail {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -117,7 +116,6 @@ public class MediaThumbnail {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -137,7 +135,6 @@ public class MediaThumbnail {
    * Get width
    * @return width
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_WIDTH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -152,7 +149,6 @@ public class MediaThumbnail {
    * Get height
    * @return height
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HEIGHT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -173,7 +169,6 @@ public class MediaThumbnail {
    * Runtime field, cannot be used as part of the criteria.
    * @return url
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -199,7 +194,6 @@ public class MediaThumbnail {
    * Get path
    * @return path
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PATH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -225,7 +219,6 @@ public class MediaThumbnail {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -245,7 +238,6 @@ public class MediaThumbnail {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -260,7 +252,6 @@ public class MediaThumbnail {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -324,4 +315,3 @@ public class MediaThumbnail {
   }
 
 }
-

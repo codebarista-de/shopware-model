@@ -73,7 +73,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get isoCode
    * @return isoCode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ISO_CODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -99,7 +98,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get factor
    * @return factor
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FACTOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +123,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get symbol
    * @return symbol
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SYMBOL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +148,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get shortName
    * @return shortName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHORT_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +173,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +198,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +223,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get decimalPrecision
    * @return decimalPrecision
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DECIMAL_PRECISION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +248,6 @@ public class SalesChannelContextAllOfCurrency {
    * Get isSystemDefault
    * @return isSystemDefault
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_SYSTEM_DEFAULT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -322,4 +314,3 @@ public class SalesChannelContextAllOfCurrency {
   }
 
 }
-

@@ -49,7 +49,6 @@ public class RegisterConfirmRequest {
    * Hash from the email received
    * @return hash
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HASH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -75,7 +74,6 @@ public class RegisterConfirmRequest {
    * Email hash from the email received
    * @return em
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EM)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -130,4 +128,3 @@ public class RegisterConfirmRequest {
   }
 
 }
-

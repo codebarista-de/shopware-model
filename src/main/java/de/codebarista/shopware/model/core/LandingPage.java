@@ -121,7 +121,6 @@ public class LandingPage {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -147,7 +146,6 @@ public class LandingPage {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -173,7 +171,6 @@ public class LandingPage {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -199,7 +196,6 @@ public class LandingPage {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -225,7 +221,6 @@ public class LandingPage {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -251,7 +246,6 @@ public class LandingPage {
    * Get slotConfig
    * @return slotConfig
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLOT_CONFIG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -277,7 +271,6 @@ public class LandingPage {
    * Get metaTitle
    * @return metaTitle
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -303,7 +296,6 @@ public class LandingPage {
    * Get metaDescription
    * @return metaDescription
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -329,7 +321,6 @@ public class LandingPage {
    * Get keywords
    * @return keywords
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_KEYWORDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -355,7 +346,6 @@ public class LandingPage {
    * Get url
    * @return url
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_URL)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -381,7 +371,6 @@ public class LandingPage {
    * Get cmsPageId
    * @return cmsPageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -407,7 +396,6 @@ public class LandingPage {
    * Get cmsPageVersionId
    * @return cmsPageVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -427,7 +415,6 @@ public class LandingPage {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -442,7 +429,6 @@ public class LandingPage {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -463,7 +449,6 @@ public class LandingPage {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -489,7 +474,6 @@ public class LandingPage {
    * Get cmsPage
    * @return cmsPage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -523,7 +507,6 @@ public class LandingPage {
    * Get seoUrls
    * @return seoUrls
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEO_URLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -608,4 +591,3 @@ public class LandingPage {
   }
 
 }
-

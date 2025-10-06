@@ -53,7 +53,6 @@ public class ChangePasswordRequest {
    * Current password of the customer
    * @return password
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class ChangePasswordRequest {
    * New Password for the customer
    * @return newPassword
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NEW_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -105,7 +103,6 @@ public class ChangePasswordRequest {
    * Confirmation of the new password
    * @return newPasswordConfirm
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NEW_PASSWORD_CONFIRM)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,4 +159,3 @@ public class ChangePasswordRequest {
   }
 
 }
-

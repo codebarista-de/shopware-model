@@ -49,7 +49,6 @@ public class OrderSetPaymentRequest {
    * The identifier of the paymentMethod to be set
    * @return paymentMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -75,7 +74,6 @@ public class OrderSetPaymentRequest {
    * The identifier of the order.
    * @return orderId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -130,4 +128,3 @@ public class OrderSetPaymentRequest {
   }
 
 }
-

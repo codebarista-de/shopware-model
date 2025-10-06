@@ -45,7 +45,6 @@ public class CmsPageConfig {
    * Get backgroundColor
    * @return backgroundColor
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_COLOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class CmsPageConfig {
   }
 
 }
-

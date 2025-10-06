@@ -49,7 +49,6 @@ public class ConfirmNewsletterRequest {
    * Hash parameter from link the in the confirmation mail
    * @return hash
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HASH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -75,7 +74,6 @@ public class ConfirmNewsletterRequest {
    * Email hash parameter from the link in the confirmation mail
    * @return em
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_EM)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -130,4 +128,3 @@ public class ConfirmNewsletterRequest {
   }
 
 }
-

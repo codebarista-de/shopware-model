@@ -53,7 +53,6 @@ public class OrderShippingCostsListPrice {
    * Get price
    * @return price
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -79,7 +78,6 @@ public class OrderShippingCostsListPrice {
    * Get discount
    * @return discount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISCOUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class OrderShippingCostsListPrice {
    * Get percentage
    * @return percentage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PERCENTAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class OrderShippingCostsListPrice {
   }
 
 }
-

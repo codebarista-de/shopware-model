@@ -49,7 +49,6 @@ public class WishlistLoadRouteResponseWishlist {
    * Get customerId
    * @return customerId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOMER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -75,7 +74,6 @@ public class WishlistLoadRouteResponseWishlist {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -130,4 +128,3 @@ public class WishlistLoadRouteResponseWishlist {
   }
 
 }
-

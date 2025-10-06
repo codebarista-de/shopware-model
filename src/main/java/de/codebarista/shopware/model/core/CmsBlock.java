@@ -141,7 +141,6 @@ public class CmsBlock {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -167,7 +166,6 @@ public class CmsBlock {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -193,7 +191,6 @@ public class CmsBlock {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -219,7 +216,6 @@ public class CmsBlock {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -245,7 +241,6 @@ public class CmsBlock {
    * Get sectionPosition
    * @return sectionPosition
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SECTION_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -271,7 +266,6 @@ public class CmsBlock {
    * Get marginTop
    * @return marginTop
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MARGIN_TOP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -297,7 +291,6 @@ public class CmsBlock {
    * Get marginBottom
    * @return marginBottom
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MARGIN_BOTTOM)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -323,7 +316,6 @@ public class CmsBlock {
    * Get marginLeft
    * @return marginLeft
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MARGIN_LEFT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -349,7 +341,6 @@ public class CmsBlock {
    * Get marginRight
    * @return marginRight
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MARGIN_RIGHT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -375,7 +366,6 @@ public class CmsBlock {
    * Get backgroundColor
    * @return backgroundColor
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_COLOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -401,7 +391,6 @@ public class CmsBlock {
    * Get backgroundMediaId
    * @return backgroundMediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -427,7 +416,6 @@ public class CmsBlock {
    * Get backgroundMediaMode
    * @return backgroundMediaMode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_MEDIA_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -453,7 +441,6 @@ public class CmsBlock {
    * Get cssClass
    * @return cssClass
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CSS_CLASS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -479,7 +466,6 @@ public class CmsBlock {
    * Get visibility
    * @return visibility
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VISIBILITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -505,7 +491,6 @@ public class CmsBlock {
    * Get sectionId
    * @return sectionId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SECTION_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -531,7 +516,6 @@ public class CmsBlock {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -557,7 +541,6 @@ public class CmsBlock {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -583,7 +566,6 @@ public class CmsBlock {
    * Get cmsSectionVersionId
    * @return cmsSectionVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_SECTION_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -603,7 +585,6 @@ public class CmsBlock {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -618,7 +599,6 @@ public class CmsBlock {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -639,7 +619,6 @@ public class CmsBlock {
    * Get backgroundMedia
    * @return backgroundMedia
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BACKGROUND_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -673,7 +652,6 @@ public class CmsBlock {
    * Get slots
    * @return slots
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLOTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -768,4 +746,3 @@ public class CmsBlock {
   }
 
 }
-

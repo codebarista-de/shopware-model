@@ -53,7 +53,6 @@ public class RecoveryPasswordRequest {
    * Parameter from the link in the confirmation mail sent in Step 1
    * @return hash
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HASH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -79,7 +78,6 @@ public class RecoveryPasswordRequest {
    * New password for the customer
    * @return newPassword
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NEW_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -105,7 +103,6 @@ public class RecoveryPasswordRequest {
    * Confirmation of the new password
    * @return newPasswordConfirm
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NEW_PASSWORD_CONFIRM)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -162,4 +159,3 @@ public class RecoveryPasswordRequest {
   }
 
 }
-

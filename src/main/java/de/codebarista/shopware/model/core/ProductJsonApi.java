@@ -351,7 +351,6 @@ public class ProductJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -377,7 +376,6 @@ public class ProductJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -411,7 +409,6 @@ public class ProductJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -437,7 +434,6 @@ public class ProductJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELATIONSHIPS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -471,7 +467,6 @@ public class ProductJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -505,7 +500,6 @@ public class ProductJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -531,7 +525,6 @@ public class ProductJsonApi {
    * Get versionId
    * @return versionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -557,7 +550,6 @@ public class ProductJsonApi {
    * Get parentId
    * @return parentId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -583,7 +575,6 @@ public class ProductJsonApi {
    * Get parentVersionId
    * @return parentVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -609,7 +600,6 @@ public class ProductJsonApi {
    * Get manufacturerId
    * @return manufacturerId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANUFACTURER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -635,7 +625,6 @@ public class ProductJsonApi {
    * Get productManufacturerVersionId
    * @return productManufacturerVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_MANUFACTURER_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -661,7 +650,6 @@ public class ProductJsonApi {
    * Get unitId
    * @return unitId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UNIT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -687,7 +675,6 @@ public class ProductJsonApi {
    * Get taxId
    * @return taxId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TAX_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -713,7 +700,6 @@ public class ProductJsonApi {
    * Get coverId
    * @return coverId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COVER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -739,7 +725,6 @@ public class ProductJsonApi {
    * Get productMediaVersionId
    * @return productMediaVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_MEDIA_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -765,7 +750,6 @@ public class ProductJsonApi {
    * Get deliveryTimeId
    * @return deliveryTimeId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -791,7 +775,6 @@ public class ProductJsonApi {
    * Get canonicalProductId
    * @return canonicalProductId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CANONICAL_PRODUCT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -817,7 +800,6 @@ public class ProductJsonApi {
    * Get cmsPageId
    * @return cmsPageId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -843,7 +825,6 @@ public class ProductJsonApi {
    * Get cmsPageVersionId
    * @return cmsPageVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -869,7 +850,6 @@ public class ProductJsonApi {
    * Get productNumber
    * @return productNumber
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRODUCT_NUMBER)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -895,7 +875,6 @@ public class ProductJsonApi {
    * Get restockTime
    * @return restockTime
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RESTOCK_TIME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -921,7 +900,6 @@ public class ProductJsonApi {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -941,7 +919,6 @@ public class ProductJsonApi {
    * Get available
    * @return available
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -962,7 +939,6 @@ public class ProductJsonApi {
    * Get isCloseout
    * @return isCloseout
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_CLOSEOUT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -982,7 +958,6 @@ public class ProductJsonApi {
    * Get displayGroup
    * @return displayGroup
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISPLAY_GROUP)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1003,7 +978,6 @@ public class ProductJsonApi {
    * Get manufacturerNumber
    * @return manufacturerNumber
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANUFACTURER_NUMBER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1029,7 +1003,6 @@ public class ProductJsonApi {
    * Get ean
    * @return ean
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EAN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1055,7 +1028,6 @@ public class ProductJsonApi {
    * Get purchaseSteps
    * @return purchaseSteps
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PURCHASE_STEPS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1081,7 +1053,6 @@ public class ProductJsonApi {
    * Get maxPurchase
    * @return maxPurchase
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX_PURCHASE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1107,7 +1078,6 @@ public class ProductJsonApi {
    * Get minPurchase
    * @return minPurchase
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MIN_PURCHASE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1133,7 +1103,6 @@ public class ProductJsonApi {
    * Get purchaseUnit
    * @return purchaseUnit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PURCHASE_UNIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1159,7 +1128,6 @@ public class ProductJsonApi {
    * Get referenceUnit
    * @return referenceUnit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REFERENCE_UNIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1185,7 +1153,6 @@ public class ProductJsonApi {
    * Get shippingFree
    * @return shippingFree
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_FREE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1211,7 +1178,6 @@ public class ProductJsonApi {
    * Get markAsTopseller
    * @return markAsTopseller
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MARK_AS_TOPSELLER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1237,7 +1203,6 @@ public class ProductJsonApi {
    * Get weight
    * @return weight
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_WEIGHT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1263,7 +1228,6 @@ public class ProductJsonApi {
    * Get width
    * @return width
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_WIDTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1289,7 +1253,6 @@ public class ProductJsonApi {
    * Get height
    * @return height
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HEIGHT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1315,7 +1278,6 @@ public class ProductJsonApi {
    * Get length
    * @return length
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LENGTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1341,7 +1303,6 @@ public class ProductJsonApi {
    * Get releaseDate
    * @return releaseDate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELEASE_DATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1361,7 +1322,6 @@ public class ProductJsonApi {
    * Get ratingAverage
    * @return ratingAverage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RATING_AVERAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1376,7 +1336,6 @@ public class ProductJsonApi {
    * Get categoryTree
    * @return categoryTree
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORY_TREE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1391,7 +1350,6 @@ public class ProductJsonApi {
    * Get propertyIds
    * @return propertyIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROPERTY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1406,7 +1364,6 @@ public class ProductJsonApi {
    * Get optionIds
    * @return optionIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPTION_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1421,7 +1378,6 @@ public class ProductJsonApi {
    * Get streamIds
    * @return streamIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STREAM_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1436,7 +1392,6 @@ public class ProductJsonApi {
    * Get tagIds
    * @return tagIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAG_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1451,7 +1406,6 @@ public class ProductJsonApi {
    * Get categoryIds
    * @return categoryIds
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1466,7 +1420,6 @@ public class ProductJsonApi {
    * Get childCount
    * @return childCount
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHILD_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1481,7 +1434,6 @@ public class ProductJsonApi {
    * Get sales
    * @return sales
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SALES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1496,7 +1448,6 @@ public class ProductJsonApi {
    * Get states
    * @return states
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1517,7 +1468,6 @@ public class ProductJsonApi {
    * Get metaDescription
    * @return metaDescription
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1543,7 +1493,6 @@ public class ProductJsonApi {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1569,7 +1518,6 @@ public class ProductJsonApi {
    * Get keywords
    * @return keywords
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_KEYWORDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1595,7 +1543,6 @@ public class ProductJsonApi {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1621,7 +1568,6 @@ public class ProductJsonApi {
    * Get metaTitle
    * @return metaTitle
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1647,7 +1593,6 @@ public class ProductJsonApi {
    * Get packUnit
    * @return packUnit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PACK_UNIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1673,7 +1618,6 @@ public class ProductJsonApi {
    * Get packUnitPlural
    * @return packUnitPlural
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PACK_UNIT_PLURAL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1699,7 +1643,6 @@ public class ProductJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1725,7 +1668,6 @@ public class ProductJsonApi {
    * Get availableStock
    * @return availableStock
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AVAILABLE_STOCK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1751,7 +1693,6 @@ public class ProductJsonApi {
    * Get stock
    * @return stock
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_STOCK)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1777,7 +1718,6 @@ public class ProductJsonApi {
    * Get calculatedPrice
    * @return calculatedPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATED_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1811,7 +1751,6 @@ public class ProductJsonApi {
    * Get calculatedPrices
    * @return calculatedPrices
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATED_PRICES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1837,7 +1776,6 @@ public class ProductJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return calculatedMaxPurchase
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATED_MAX_PURCHASE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1863,7 +1801,6 @@ public class ProductJsonApi {
    * Get calculatedCheapestPrice
    * @return calculatedCheapestPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATED_CHEAPEST_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1889,7 +1826,6 @@ public class ProductJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return isNew
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IS_NEW)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1915,7 +1851,6 @@ public class ProductJsonApi {
    * Get sortedProperties
    * @return sortedProperties
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SORTED_PROPERTIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1935,7 +1870,6 @@ public class ProductJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -1950,7 +1884,6 @@ public class ProductJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1971,7 +1904,6 @@ public class ProductJsonApi {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2158,4 +2090,3 @@ public class ProductJsonApi {
   }
 
 }
-

@@ -187,7 +187,6 @@ public class OrderLineItem {
      *
      * @return id
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
     public String getId() {
@@ -201,7 +200,6 @@ public class OrderLineItem {
         this.id = id;
     }
 
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRICE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
     public CalculatedPrice getPrice() {
@@ -227,7 +225,6 @@ public class OrderLineItem {
      *
      * @return versionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -254,7 +251,6 @@ public class OrderLineItem {
      *
      * @return orderId
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_ORDER_ID)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -281,7 +277,6 @@ public class OrderLineItem {
      *
      * @return orderVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ORDER_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -308,7 +303,6 @@ public class OrderLineItem {
      *
      * @return productId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRODUCT_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -335,7 +329,6 @@ public class OrderLineItem {
      *
      * @return productVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRODUCT_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -362,7 +355,6 @@ public class OrderLineItem {
      *
      * @return parentId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PARENT_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -389,7 +381,6 @@ public class OrderLineItem {
      *
      * @return parentVersionId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PARENT_VERSION_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -416,7 +407,6 @@ public class OrderLineItem {
      *
      * @return coverId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_COVER_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -443,7 +433,6 @@ public class OrderLineItem {
      *
      * @return identifier
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_IDENTIFIER)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -470,7 +459,6 @@ public class OrderLineItem {
      *
      * @return referencedId
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_REFERENCED_ID)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -497,7 +485,6 @@ public class OrderLineItem {
      *
      * @return quantity
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_QUANTITY)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -524,7 +511,6 @@ public class OrderLineItem {
      *
      * @return label
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_LABEL)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -551,7 +537,6 @@ public class OrderLineItem {
      *
      * @return payload
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PAYLOAD)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -578,7 +563,6 @@ public class OrderLineItem {
      *
      * @return good
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_GOOD)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -605,7 +589,6 @@ public class OrderLineItem {
      *
      * @return removable
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_REMOVABLE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -632,7 +615,6 @@ public class OrderLineItem {
      *
      * @return stackable
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_STACKABLE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -659,7 +641,6 @@ public class OrderLineItem {
      *
      * @return position
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_POSITION)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -694,7 +675,6 @@ public class OrderLineItem {
      *
      * @return states
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_STATES)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -721,7 +701,6 @@ public class OrderLineItem {
      *
      * @return priceDefinition
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PRICE_DEFINITION)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -748,7 +727,6 @@ public class OrderLineItem {
      *
      * @return unitPrice
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UNIT_PRICE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -775,7 +753,6 @@ public class OrderLineItem {
      *
      * @return totalPrice
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TOTAL_PRICE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -802,7 +779,6 @@ public class OrderLineItem {
      *
      * @return description
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DESCRIPTION)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -829,7 +805,6 @@ public class OrderLineItem {
      *
      * @return type
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_TYPE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -856,7 +831,6 @@ public class OrderLineItem {
      *
      * @return customFields
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -877,7 +851,6 @@ public class OrderLineItem {
      *
      * @return createdAt
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_CREATED_AT)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -891,7 +864,6 @@ public class OrderLineItem {
      *
      * @return updatedAt
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_UPDATED_AT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -911,7 +883,6 @@ public class OrderLineItem {
      *
      * @return cover
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_COVER)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -946,7 +917,6 @@ public class OrderLineItem {
      *
      * @return orderDeliveryPositions
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_ORDER_DELIVERY_POSITIONS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -981,7 +951,6 @@ public class OrderLineItem {
      *
      * @return downloads
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_DOWNLOADS)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1008,7 +977,6 @@ public class OrderLineItem {
      *
      * @return parent
      **/
-    @jakarta.annotation.Nullable
     @JsonProperty(JSON_PROPERTY_PARENT)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1043,7 +1011,6 @@ public class OrderLineItem {
      *
      * @return children
      **/
-    @jakarta.annotation.Nonnull
     @JsonProperty(JSON_PROPERTY_CHILDREN)
     @JsonInclude(value = JsonInclude.Include.ALWAYS)
 

@@ -45,7 +45,6 @@ public class SystemConfigConfigurationValue {
    * Get value
    * @return value
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_VALUE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class SystemConfigConfigurationValue {
   }
 
 }
-

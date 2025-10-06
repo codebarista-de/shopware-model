@@ -45,7 +45,6 @@ public class ChangeLanguageRequest {
    * New languageId
    * @return language
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class ChangeLanguageRequest {
   }
 
 }
-

@@ -77,7 +77,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -103,7 +102,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -129,7 +127,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get sortBy
    * @return sortBy
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SORT_BY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -155,7 +152,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get sortDirection
    * @return sortDirection
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SORT_DIRECTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -181,7 +177,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get limit
    * @return limit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -207,7 +202,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -233,7 +227,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get productId
    * @return productId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -259,7 +252,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get productStreamId
    * @return productStreamId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_STREAM_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -285,7 +277,6 @@ public class CrossSellingElementCollectionInnerCrossSelling {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -354,4 +345,3 @@ public class CrossSellingElementCollectionInnerCrossSelling {
   }
 
 }
-

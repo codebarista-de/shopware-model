@@ -79,7 +79,6 @@ public class LineItem {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +104,6 @@ public class LineItem {
    * Get referencedId
    * @return referencedId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REFERENCED_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -131,7 +129,6 @@ public class LineItem {
    * Get label
    * @return label
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LABEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -157,7 +154,6 @@ public class LineItem {
    * Get quantity
    * @return quantity
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUANTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -183,7 +179,6 @@ public class LineItem {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -209,7 +204,6 @@ public class LineItem {
    * Get good
    * @return good
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GOOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -235,7 +229,6 @@ public class LineItem {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -261,7 +254,6 @@ public class LineItem {
    * Get removable
    * @return removable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REMOVABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -287,7 +279,6 @@ public class LineItem {
    * Get stackable
    * @return stackable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STACKABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -313,7 +304,6 @@ public class LineItem {
    * Get modified
    * @return modified
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MODIFIED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -384,4 +374,3 @@ public class LineItem {
   }
 
 }
-

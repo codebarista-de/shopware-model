@@ -56,7 +56,6 @@ public class SearchSuggestRequest {
    * Resets all aggregations in the criteria. This parameter is a flag, the value has no effect.
    * @return noAggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public String getNoAggregations() {
@@ -90,7 +89,6 @@ public class SearchSuggestRequest {
    * If this flag is set, no products are fetched. Sorting and associations are also ignored. This parameter is a flag, the value has no effect.
    * @return onlyAggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public String getOnlyAggregations() {
@@ -124,7 +122,6 @@ public class SearchSuggestRequest {
    * Using the search parameter, the server performs a text search on all records based on their data model and weighting as defined in the entity definition using the SearchRanking flag.
    * @return search
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SEARCH)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -192,4 +189,3 @@ public class SearchSuggestRequest {
   }
 
 }
-

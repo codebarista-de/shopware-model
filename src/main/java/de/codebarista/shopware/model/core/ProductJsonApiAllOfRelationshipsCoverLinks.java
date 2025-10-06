@@ -45,7 +45,6 @@ public class ProductJsonApiAllOfRelationshipsCoverLinks {
    * Get related
    * @return related
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class ProductJsonApiAllOfRelationshipsCoverLinks {
   }
 
 }
-

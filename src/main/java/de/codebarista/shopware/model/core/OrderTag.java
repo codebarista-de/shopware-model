@@ -63,7 +63,6 @@ public class OrderTag {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -89,7 +88,6 @@ public class OrderTag {
    * Get orderId
    * @return orderId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ORDER_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -115,7 +113,6 @@ public class OrderTag {
    * Get orderVersionId
    * @return orderVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -141,7 +138,6 @@ public class OrderTag {
    * Get tagId
    * @return tagId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TAG_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -167,7 +163,6 @@ public class OrderTag {
    * Get order
    * @return order
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -193,7 +188,6 @@ public class OrderTag {
    * Get tag
    * @return tag
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -256,4 +250,3 @@ public class OrderTag {
   }
 
 }
-

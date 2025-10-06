@@ -108,7 +108,6 @@ public class SalutationJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -134,7 +133,6 @@ public class SalutationJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -168,7 +166,6 @@ public class SalutationJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,7 +191,6 @@ public class SalutationJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public Relationships getRelationships() {
@@ -236,7 +232,6 @@ public class SalutationJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -270,7 +265,6 @@ public class SalutationJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -296,7 +290,6 @@ public class SalutationJsonApi {
    * Get salutationKey
    * @return salutationKey
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALUTATION_KEY)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -322,7 +315,6 @@ public class SalutationJsonApi {
    * Get displayName
    * @return displayName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_DISPLAY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -348,7 +340,6 @@ public class SalutationJsonApi {
    * Get letterName
    * @return letterName
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LETTER_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -374,7 +365,6 @@ public class SalutationJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -394,7 +384,6 @@ public class SalutationJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -409,7 +398,6 @@ public class SalutationJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -430,7 +418,6 @@ public class SalutationJsonApi {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -518,4 +505,3 @@ public class SalutationJsonApi {
   }
 
 }
-

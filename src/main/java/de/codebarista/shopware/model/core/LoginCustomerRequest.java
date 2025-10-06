@@ -49,7 +49,6 @@ public class LoginCustomerRequest {
    * Email
    * @return username
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_USERNAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -75,7 +74,6 @@ public class LoginCustomerRequest {
    * Password
    * @return password
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PASSWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -130,4 +128,3 @@ public class LoginCustomerRequest {
   }
 
 }
-

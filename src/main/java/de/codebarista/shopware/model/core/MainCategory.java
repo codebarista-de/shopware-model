@@ -83,7 +83,6 @@ public class MainCategory {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -109,7 +108,6 @@ public class MainCategory {
    * Get productId
    * @return productId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRODUCT_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -135,7 +133,6 @@ public class MainCategory {
    * Get productVersionId
    * @return productVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -161,7 +158,6 @@ public class MainCategory {
    * Get categoryId
    * @return categoryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -187,7 +183,6 @@ public class MainCategory {
    * Get categoryVersionId
    * @return categoryVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -213,7 +208,6 @@ public class MainCategory {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -233,7 +227,6 @@ public class MainCategory {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -248,7 +241,6 @@ public class MainCategory {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -310,4 +302,3 @@ public class MainCategory {
   }
 
 }
-

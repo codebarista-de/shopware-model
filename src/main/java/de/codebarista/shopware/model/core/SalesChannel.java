@@ -201,7 +201,6 @@ public class SalesChannel {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -227,7 +226,6 @@ public class SalesChannel {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -253,7 +251,6 @@ public class SalesChannel {
    * Get customerGroupId
    * @return customerGroupId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CUSTOMER_GROUP_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -279,7 +276,6 @@ public class SalesChannel {
    * Get currencyId
    * @return currencyId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -305,7 +301,6 @@ public class SalesChannel {
    * Get paymentMethodId
    * @return paymentMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -331,7 +326,6 @@ public class SalesChannel {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -357,7 +351,6 @@ public class SalesChannel {
    * Get countryId
    * @return countryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_COUNTRY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -383,7 +376,6 @@ public class SalesChannel {
    * Get navigationCategoryId
    * @return navigationCategoryId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAVIGATION_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -409,7 +401,6 @@ public class SalesChannel {
    * Get navigationCategoryVersionId
    * @return navigationCategoryVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_CATEGORY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -435,7 +426,6 @@ public class SalesChannel {
    * Get navigationCategoryDepth
    * @return navigationCategoryDepth
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_CATEGORY_DEPTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -461,7 +451,6 @@ public class SalesChannel {
    * Get footerCategoryId
    * @return footerCategoryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOOTER_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -487,7 +476,6 @@ public class SalesChannel {
    * Get footerCategoryVersionId
    * @return footerCategoryVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOOTER_CATEGORY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -513,7 +501,6 @@ public class SalesChannel {
    * Get serviceCategoryId
    * @return serviceCategoryId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SERVICE_CATEGORY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -539,7 +526,6 @@ public class SalesChannel {
    * Get serviceCategoryVersionId
    * @return serviceCategoryVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SERVICE_CATEGORY_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -565,7 +551,6 @@ public class SalesChannel {
    * Get mailHeaderFooterId
    * @return mailHeaderFooterId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAIL_HEADER_FOOTER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -591,7 +576,6 @@ public class SalesChannel {
    * Get hreflangDefaultDomainId
    * @return hreflangDefaultDomainId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HREFLANG_DEFAULT_DOMAIN_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -617,7 +601,6 @@ public class SalesChannel {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -643,7 +626,6 @@ public class SalesChannel {
    * Get shortName
    * @return shortName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHORT_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -669,7 +651,6 @@ public class SalesChannel {
    * Get taxCalculationType
    * @return taxCalculationType
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_CALCULATION_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -695,7 +676,6 @@ public class SalesChannel {
    * Get _configuration
    * @return _configuration
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONFIGURATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -721,7 +701,6 @@ public class SalesChannel {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -747,7 +726,6 @@ public class SalesChannel {
    * Get hreflangActive
    * @return hreflangActive
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HREFLANG_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -773,7 +751,6 @@ public class SalesChannel {
    * Get maintenance
    * @return maintenance
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAINTENANCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -799,7 +776,6 @@ public class SalesChannel {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -819,7 +795,6 @@ public class SalesChannel {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -834,7 +809,6 @@ public class SalesChannel {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -855,7 +829,6 @@ public class SalesChannel {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -881,7 +854,6 @@ public class SalesChannel {
    * Get language
    * @return language
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -907,7 +879,6 @@ public class SalesChannel {
    * Get currency
    * @return currency
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -933,7 +904,6 @@ public class SalesChannel {
    * Get paymentMethod
    * @return paymentMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -959,7 +929,6 @@ public class SalesChannel {
    * Get shippingMethod
    * @return shippingMethod
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -985,7 +954,6 @@ public class SalesChannel {
    * Get country
    * @return country
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COUNTRY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1019,7 +987,6 @@ public class SalesChannel {
    * Get domains
    * @return domains
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOMAINS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1045,7 +1012,6 @@ public class SalesChannel {
    * Get navigationCategory
    * @return navigationCategory
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAVIGATION_CATEGORY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1071,7 +1037,6 @@ public class SalesChannel {
    * Get footerCategory
    * @return footerCategory
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOOTER_CATEGORY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1097,7 +1062,6 @@ public class SalesChannel {
    * Get serviceCategory
    * @return serviceCategory
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SERVICE_CATEGORY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1123,7 +1087,6 @@ public class SalesChannel {
    * Get hreflangDefaultDomain
    * @return hreflangDefaultDomain
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HREFLANG_DEFAULT_DOMAIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1248,4 +1211,3 @@ public class SalesChannel {
   }
 
 }
-

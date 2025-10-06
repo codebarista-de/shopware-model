@@ -51,7 +51,6 @@ public class ProductKeywordDictionary {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -77,7 +76,6 @@ public class ProductKeywordDictionary {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -103,7 +101,6 @@ public class ProductKeywordDictionary {
    * Get keyword
    * @return keyword
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_KEYWORD)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -160,4 +157,3 @@ public class ProductKeywordDictionary {
   }
 
 }
-

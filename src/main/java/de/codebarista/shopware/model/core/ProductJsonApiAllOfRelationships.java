@@ -133,7 +133,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get downloads
    * @return downloads
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DOWNLOADS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -159,7 +158,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get parent
    * @return parent
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PARENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -185,7 +183,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get children
    * @return children
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHILDREN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -211,7 +208,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get deliveryTime
    * @return deliveryTime
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELIVERY_TIME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -237,7 +233,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get tax
    * @return tax
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -263,7 +258,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get manufacturer
    * @return manufacturer
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANUFACTURER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -289,7 +283,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get unit
    * @return unit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UNIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -315,7 +308,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get cover
    * @return cover
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COVER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -341,7 +333,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get cmsPage
    * @return cmsPage
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CMS_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -367,7 +358,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get canonicalProduct
    * @return canonicalProduct
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CANONICAL_PRODUCT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -393,7 +383,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get media
    * @return media
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -419,7 +408,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get crossSellings
    * @return crossSellings
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CROSS_SELLINGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -445,7 +433,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get configuratorSettings
    * @return configuratorSettings
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONFIGURATOR_SETTINGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -471,7 +458,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get productReviews
    * @return productReviews
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_REVIEWS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -497,7 +483,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get mainCategories
    * @return mainCategories
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAIN_CATEGORIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -523,7 +508,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get seoUrls
    * @return seoUrls
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEO_URLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -549,7 +533,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get options
    * @return options
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -575,7 +558,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get properties
    * @return properties
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROPERTIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -601,7 +583,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get categories
    * @return categories
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -627,7 +608,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get streams
    * @return streams
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STREAMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -653,7 +633,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get categoriesRo
    * @return categoriesRo
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORIES_RO)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -679,7 +658,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get tags
    * @return tags
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -705,7 +683,6 @@ public class ProductJsonApiAllOfRelationships {
    * Get seoCategory
    * @return seoCategory
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEO_CATEGORY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -802,4 +779,3 @@ public class ProductJsonApiAllOfRelationships {
   }
 
 }
-

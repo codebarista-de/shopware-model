@@ -45,7 +45,6 @@ public class CartAllOfTransactions {
    * Get paymentMethodId
    * @return paymentMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAYMENT_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -98,4 +97,3 @@ public class CartAllOfTransactions {
   }
 
 }
-

@@ -49,7 +49,6 @@ public class SalesChannelContextAllOfTaxRules {
    * Get taxRate
    * @return taxRate
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TAX_RATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -75,7 +74,6 @@ public class SalesChannelContextAllOfTaxRules {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -130,4 +128,3 @@ public class SalesChannelContextAllOfTaxRules {
   }
 
 }
-

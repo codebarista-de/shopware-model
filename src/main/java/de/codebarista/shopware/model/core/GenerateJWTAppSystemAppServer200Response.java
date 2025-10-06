@@ -54,7 +54,6 @@ public class GenerateJWTAppSystemAppServer200Response {
    * Get token
    * @return token
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOKEN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -80,7 +79,6 @@ public class GenerateJWTAppSystemAppServer200Response {
    * Get expires
    * @return expires
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXPIRES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -106,7 +104,6 @@ public class GenerateJWTAppSystemAppServer200Response {
    * Get shopId
    * @return shopId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHOP_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -163,4 +160,3 @@ public class GenerateJWTAppSystemAppServer200Response {
   }
 
 }
-

@@ -53,7 +53,6 @@ public class ShippingMethodPageRouteResponseInnerTranslationsInner {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -79,7 +78,6 @@ public class ShippingMethodPageRouteResponseInnerTranslationsInner {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -105,7 +103,6 @@ public class ShippingMethodPageRouteResponseInnerTranslationsInner {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,4 +159,3 @@ public class ShippingMethodPageRouteResponseInnerTranslationsInner {
   }
 
 }
-

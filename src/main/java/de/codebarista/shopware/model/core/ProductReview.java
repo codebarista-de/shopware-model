@@ -103,7 +103,6 @@ public class ProductReview {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -129,7 +128,6 @@ public class ProductReview {
    * Get productId
    * @return productId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_PRODUCT_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -155,7 +153,6 @@ public class ProductReview {
    * Get productVersionId
    * @return productVersionId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRODUCT_VERSION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -181,7 +178,6 @@ public class ProductReview {
    * Get salesChannelId
    * @return salesChannelId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_SALES_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -207,7 +203,6 @@ public class ProductReview {
    * Get languageId
    * @return languageId
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_LANGUAGE_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -233,7 +228,6 @@ public class ProductReview {
    * Get title
    * @return title
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -259,7 +253,6 @@ public class ProductReview {
    * Get content
    * @return content
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CONTENT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -285,7 +278,6 @@ public class ProductReview {
    * Get points
    * @return points
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POINTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -311,7 +303,6 @@ public class ProductReview {
    * Get status
    * @return status
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -337,7 +328,6 @@ public class ProductReview {
    * Get comment
    * @return comment
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMMENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -363,7 +353,6 @@ public class ProductReview {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -383,7 +372,6 @@ public class ProductReview {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -398,7 +386,6 @@ public class ProductReview {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -470,4 +457,3 @@ public class ProductReview {
   }
 
 }
-

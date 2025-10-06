@@ -51,7 +51,6 @@ public class RelationshipLinksSelf {
    * A string containing the link&#39;s URL.
    * @return href
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_HREF)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -85,7 +84,6 @@ public class RelationshipLinksSelf {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -140,4 +138,3 @@ public class RelationshipLinksSelf {
   }
 
 }
-

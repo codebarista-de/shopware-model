@@ -73,7 +73,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get shippingMethodId
    * @return shippingMethodId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_METHOD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -99,7 +98,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get currencyId
    * @return currencyId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CURRENCY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -125,7 +123,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get ruleId
    * @return ruleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -151,7 +148,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get calculation
    * @return calculation
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -177,7 +173,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get quantityStart
    * @return quantityStart
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUANTITY_START)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -203,7 +198,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get quantityEnd
    * @return quantityEnd
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUANTITY_END)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -229,7 +223,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get price
    * @return price
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -255,7 +248,6 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
    * Get calculationRuleId
    * @return calculationRuleId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CALCULATION_RULE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -322,4 +314,3 @@ public class ShippingMethodPageRouteResponseInnerPricesInner {
   }
 
 }
-

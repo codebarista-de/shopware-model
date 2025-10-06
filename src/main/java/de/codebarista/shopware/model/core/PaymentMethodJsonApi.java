@@ -161,7 +161,6 @@ public class PaymentMethodJsonApi {
    * Get type
    * @return type
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -187,7 +186,6 @@ public class PaymentMethodJsonApi {
    * Get id
    * @return id
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -221,7 +219,6 @@ public class PaymentMethodJsonApi {
    * Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#39;s defined.
    * @return attributes
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTRIBUTES)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -247,7 +244,6 @@ public class PaymentMethodJsonApi {
    * Get relationships
    * @return relationships
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RELATIONSHIPS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -281,7 +277,6 @@ public class PaymentMethodJsonApi {
    * Get links
    * @return links
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -315,7 +310,6 @@ public class PaymentMethodJsonApi {
    * Non-standard meta-information that can not be represented as an attribute or relationship.
    * @return meta
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_META)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -341,7 +335,6 @@ public class PaymentMethodJsonApi {
    * Get name
    * @return name
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -361,7 +354,6 @@ public class PaymentMethodJsonApi {
    * Get distinguishableName
    * @return distinguishableName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISTINGUISHABLE_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -382,7 +374,6 @@ public class PaymentMethodJsonApi {
    * Get description
    * @return description
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DESCRIPTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -408,7 +399,6 @@ public class PaymentMethodJsonApi {
    * Get position
    * @return position
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSITION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -434,7 +424,6 @@ public class PaymentMethodJsonApi {
    * Get active
    * @return active
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -460,7 +449,6 @@ public class PaymentMethodJsonApi {
    * Get afterOrderEnabled
    * @return afterOrderEnabled
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AFTER_ORDER_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -486,7 +474,6 @@ public class PaymentMethodJsonApi {
    * Get customFields
    * @return customFields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -512,7 +499,6 @@ public class PaymentMethodJsonApi {
    * Get mediaId
    * @return mediaId
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MEDIA_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -532,7 +518,6 @@ public class PaymentMethodJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return synchronous
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SYNCHRONOUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -547,7 +532,6 @@ public class PaymentMethodJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return asynchronous
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ASYNCHRONOUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -562,7 +546,6 @@ public class PaymentMethodJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return prepared
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PREPARED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -577,7 +560,6 @@ public class PaymentMethodJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return refundable
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REFUNDABLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -592,7 +574,6 @@ public class PaymentMethodJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return recurring
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RECURRING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -613,7 +594,6 @@ public class PaymentMethodJsonApi {
    * Runtime field, cannot be used as part of the criteria.
    * @return shortName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHORT_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -639,7 +619,6 @@ public class PaymentMethodJsonApi {
    * Get technicalName
    * @return technicalName
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TECHNICAL_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -659,7 +638,6 @@ public class PaymentMethodJsonApi {
    * Get createdAt
    * @return createdAt
   **/
-  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -674,7 +652,6 @@ public class PaymentMethodJsonApi {
    * Get updatedAt
    * @return updatedAt
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -695,7 +672,6 @@ public class PaymentMethodJsonApi {
    * Get translated
    * @return translated
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSLATED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -794,4 +770,3 @@ public class PaymentMethodJsonApi {
   }
 
 }
-

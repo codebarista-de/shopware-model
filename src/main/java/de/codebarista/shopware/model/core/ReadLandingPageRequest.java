@@ -189,7 +189,6 @@ public class ReadLandingPageRequest {
    * Search result page
    * @return page
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -216,7 +215,6 @@ public class ReadLandingPageRequest {
    * minimum: 0
    * @return limit
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIMIT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -250,7 +248,6 @@ public class ReadLandingPageRequest {
    * List of filters to restrict the search result. For more information, see [Search Queries &gt; Filter](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#filter)
    * @return filter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -284,7 +281,6 @@ public class ReadLandingPageRequest {
    * Sorting in the search result.
    * @return sort
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -318,7 +314,6 @@ public class ReadLandingPageRequest {
    * Filters that applied without affecting aggregations. For more information, see [Search Queries &gt; Post Filter](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#post-filter)
    * @return postFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POST_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -344,7 +339,6 @@ public class ReadLandingPageRequest {
    * Used to fetch associations which are not fetched by default.
    * @return associations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ASSOCIATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -378,7 +372,6 @@ public class ReadLandingPageRequest {
    * Used to perform aggregations on the search result. For more information, see [Search Queries &gt; Aggregations](https://shopware.stoplight.io/docs/store-api/docs/concepts/search-queries.md#aggregations)
    * @return aggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AGGREGATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -412,7 +405,6 @@ public class ReadLandingPageRequest {
    * Perform groupings over certain fields
    * @return grouping
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_GROUPING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -446,7 +438,6 @@ public class ReadLandingPageRequest {
    * Fields which should be returned in the search result.
    * @return fields
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -472,7 +463,6 @@ public class ReadLandingPageRequest {
    * Whether the total for the total number of hits should be determined for the search query. none &#x3D; disabled total count, exact &#x3D; calculate exact total amount (slow), next-pages &#x3D; calculate only for next page (fast)
    * @return totalCountMode
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TOTAL_COUNT_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -498,7 +488,6 @@ public class ReadLandingPageRequest {
    * Resolves only the given slot identifiers. The identifiers have to be seperated by a &#x60;|&#x60; character.
    * @return slots
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLOTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -524,7 +513,6 @@ public class ReadLandingPageRequest {
    * Specifies the sorting of the products by &#x60;availableSortings&#x60;. If not set, the default sorting will be set according to the shop settings. The available sorting options are sent within the response under the &#x60;availableSortings&#x60; key. In order to sort by a field, consider using the &#x60;sort&#x60; parameter from the listing criteria. Do not use both parameters together, as it might lead to unexpected results.
    * @return order
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ORDER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -550,7 +538,6 @@ public class ReadLandingPageRequest {
    * Search result page
    * @return p
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_P)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -576,7 +563,6 @@ public class ReadLandingPageRequest {
    * Filter by manufacturers. List of manufacturer identifiers separated by a &#x60;|&#x60;.
    * @return manufacturer
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANUFACTURER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -603,7 +589,6 @@ public class ReadLandingPageRequest {
    * minimum: 0
    * @return minPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MIN_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -630,7 +615,6 @@ public class ReadLandingPageRequest {
    * minimum: 0
    * @return maxPrice
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX_PRICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -656,7 +640,6 @@ public class ReadLandingPageRequest {
    * Filter products with a minimum average rating.
    * @return rating
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RATING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -682,7 +665,6 @@ public class ReadLandingPageRequest {
    * Filters products that are marked as shipping-free.
    * @return shippingFree
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_FREE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -708,7 +690,6 @@ public class ReadLandingPageRequest {
    * Filters products by their properties. List of property identifiers separated by a &#x60;|&#x60;.
    * @return properties
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROPERTIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -734,7 +715,6 @@ public class ReadLandingPageRequest {
    * Enables/disabled filtering by manufacturer. If set to false, the &#x60;manufacturer&#x60; filter will be ignored. Also the &#x60;aggregations[manufacturer]&#x60; key will be removed from the response.
    * @return manufacturerFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANUFACTURER_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -760,7 +740,6 @@ public class ReadLandingPageRequest {
    * Enables/disabled filtering by price. If set to false, the &#x60;min-price&#x60; and &#x60;max-price&#x60; filter will be ignored. Also the &#x60;aggregations[price]&#x60; key will be removed from the response.
    * @return priceFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRICE_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -786,7 +765,6 @@ public class ReadLandingPageRequest {
    * Enables/disabled filtering by rating. If set to false, the &#x60;rating&#x60; filter will be ignored. Also the &#x60;aggregations[rating]&#x60; key will be removed from the response.
    * @return ratingFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RATING_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -812,7 +790,6 @@ public class ReadLandingPageRequest {
    * Enables/disabled filtering by shipping-free products. If set to false, the &#x60;shipping-free&#x60; filter will be ignored. Also the &#x60;aggregations[shipping-free]&#x60; key will be removed from the response.
    * @return shippingFreeFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHIPPING_FREE_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -838,7 +815,6 @@ public class ReadLandingPageRequest {
    * Enables/disabled filtering by properties products. If set to false, the &#x60;properties&#x60; filter will be ignored. Also the &#x60;aggregations[properties]&#x60; key will be removed from the response.
    * @return propertyFilter
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROPERTY_FILTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -864,7 +840,6 @@ public class ReadLandingPageRequest {
    * A whitelist of property identifiers which can be used for filtering. List of property identifiers separated by a &#x60;|&#x60;. The &#x60;property-filter&#x60; must be &#x60;true&#x60;, otherwise the whitelist has no effect.
    * @return propertyWhitelist
   **/
-  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PROPERTY_WHITELIST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -890,7 +865,6 @@ public class ReadLandingPageRequest {
    * By sending the parameter &#x60;reduce-aggregations&#x60; , the post-filters that were applied by the customer, are also applied to the aggregations. This has the consequence that only values are returned in the aggregations that would lead to further filter results. This parameter is a flag, the value has no effect.
    * @return reduceAggregations
   **/
-  @jakarta.annotation.Nullable
   @JsonIgnore
 
   public String getReduceAggregations() {
@@ -1012,4 +986,3 @@ public class ReadLandingPageRequest {
   }
 
 }
-
