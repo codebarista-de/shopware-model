@@ -14,14 +14,14 @@ Auto-generated Java model classes for the Shopware Store API, providing type-saf
 <dependency>
     <groupId>de.codebarista</groupId>
     <artifactId>shopware-model</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.4</version>
 </dependency>
 ```
 
 ### Gradle
 
 ```gradle
-implementation 'de.codebarista:shopware-model:0.0.2'
+implementation 'de.codebarista:shopware-model:0.0.4'
 ```
 
 ## Package Structure

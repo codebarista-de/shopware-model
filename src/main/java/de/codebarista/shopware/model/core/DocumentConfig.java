@@ -38,6 +38,8 @@ public class DocumentConfig {
     private String executiveDirector;
     @JsonProperty("vatId")
     private String vatId;
+    @JsonProperty("taxNumber")
+    private String taxNumber;
     @JsonProperty("bankIban")
     private String bankIban;
     @JsonProperty("bankBic")
@@ -139,6 +141,13 @@ public class DocumentConfig {
      */
     public String getVatId() {
         return vatId;
+    }
+
+    /**
+     * Gets the {@link #taxNumber}.
+     */
+    public String getTaxNumber() {
+        return taxNumber;
     }
 
     /**
